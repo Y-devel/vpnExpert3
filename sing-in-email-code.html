@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+	<title>VPN EXPERT</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css?_v=20241028135548">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241028135548">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+	<div class="wrapper sing-in">
+		<header class="header header-sing">
+			<div class="header__container">
+				<div class="header__inner">
+					<a href="#!" class="logo">
+						<div class="logo__icon">
+							<svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.1186 2.21684L16.1186 2.21687L30.7836 7.13853C30.9126 7.18184 30.9997 7.30284 30.9997 7.43922V19.7375C30.9997 28.3316 25.0536 35.9805 16.1106 38.7168C16.0803 38.726 16.0491 38.7306 16.018 38.7306C15.987 38.7306 15.9558 38.726 15.9253 38.7167C6.98236 35.9804 1.03633 28.3316 1.03633 19.7375V7.00459C1.03633 6.86494 1.12746 6.74199 1.26044 6.70127C1.26046 6.70127 1.26047 6.70126 1.26048 6.70126L15.9255 2.21428L15.9257 2.21421C15.9886 2.19494 16.056 2.19582 16.1186 2.21684Z" fill="#04AFD4" stroke="url(#paint0_linear_3885_3503)" stroke-width="1.6" />
+								<path d="M16.0968 1.52305L16.0969 1.52308L30.7461 6.53422C30.7461 6.53422 30.7461 6.53422 30.7461 6.53422C30.8693 6.57639 30.9657 6.70079 30.9657 6.85565V19.3775C30.9657 28.145 25.0156 35.9332 16.0891 38.7171C16.0601 38.7261 16.0305 38.7306 16.001 38.7306C15.9718 38.7306 15.9421 38.7262 15.913 38.7171C6.98647 35.9332 1.03633 28.145 1.03633 19.3775V6.41313C1.03633 6.25443 1.13721 6.12859 1.26371 6.08911C1.26372 6.0891 1.26374 6.0891 1.26375 6.0891L15.913 1.52053L15.9132 1.52046C15.9732 1.50175 16.037 1.50257 16.0968 1.52305Z" fill="#04AFD4" stroke="url(#paint1_linear_3885_3503)" stroke-width="1.6" />
+								<path d="M20.2885 9.55231C19.6961 8.9599 19.0056 8.50215 18.2354 8.1874C17.4918 7.88596 16.7067 7.73252 15.9017 7.73209C15.0967 7.73166 14.3118 7.88425 13.5685 8.18488C12.7986 8.49549 12.1086 8.95582 11.5169 9.54759C10.9251 10.1394 10.4681 10.8293 10.1542 11.5992C9.85353 12.3425 9.70093 13.1274 9.70136 13.9324C9.70179 14.7374 9.85523 15.5225 10.1567 16.2661C10.4681 17.0363 10.9292 17.7268 11.5216 18.3192C12.2621 19.0597 13.1738 19.5991 14.1735 19.8907L14.1742 30.3871C14.1743 30.6299 14.3208 30.8528 14.5703 30.9528C14.6219 30.9744 14.6801 30.9827 14.7367 30.9828L17.0884 30.984C17.145 30.9841 17.2015 30.9741 17.2547 30.9542C17.5041 30.8545 17.6521 30.6334 17.6502 30.3889L17.6495 28.9353L19.7417 28.9364C19.7983 28.9364 19.8548 28.9265 19.908 28.9066C20.1575 28.8069 20.3054 28.5858 20.3036 28.3413L20.3023 26.0228C20.3023 25.9663 20.2923 25.9097 20.2723 25.8565C20.1724 25.607 19.9511 25.4588 19.7066 25.4604L17.6476 25.4593L17.6429 19.8959C18.6407 19.6071 19.5535 19.067 20.2932 18.3273C20.885 17.7355 21.342 17.0455 21.6559 16.2757C21.9565 15.5324 22.1091 14.7474 22.1087 13.9425C22.1083 13.1375 21.9548 12.3524 21.6534 11.6088C21.3387 10.8352 20.8809 10.1447 20.2885 9.55231ZM18.9803 13.9391C18.9807 14.7607 18.6601 15.5339 18.08 16.114C17.4999 16.6942 16.7266 17.0148 15.905 17.0143C15.0834 17.0139 14.3082 16.6941 13.7275 16.1134C13.145 15.5309 12.8253 14.759 12.8248 13.9374C12.8244 13.1158 13.145 12.3426 13.7251 11.7625C14.3053 11.1823 15.0785 10.8617 15.9001 10.8622C16.7217 10.8626 17.4952 11.184 18.076 11.7648C18.6601 12.3423 18.9815 13.1158 18.9803 13.9391Z" fill="white" />
+								<path d="M16.001 6.85565V0.707031C15.9481 0.707031 15.8423 0.707031 15.6748 0.756812L1.02553 5.32539C0.556604 5.47166 0.236328 5.91305 0.236328 6.41313V19.3775C0.236328 28.5221 6.44056 36.601 15.6748 39.4808C15.7811 39.514 15.8911 39.5306 16.001 39.5306C16.001 33.0828 16.001 28.5221 16.001 19.3775V6.85565Z" fill="white" fill-opacity="0.3" />
+								<defs>
+									<linearGradient id="paint0_linear_3885_3503" x1="16.018" y1="1.40039" x2="16.018" y2="39.5306" gradientUnits="userSpaceOnUse">
+										<stop stop-color="#03F4FD" />
+										<stop offset="1" stop-color="#03D0FD" />
+									</linearGradient>
+									<linearGradient id="paint1_linear_3885_3503" x1="16.001" y1="0.707031" x2="16.001" y2="39.5306" gradientUnits="userSpaceOnUse">
+										<stop stop-color="#03F4FD" />
+										<stop offset="1" stop-color="#03D0FD" />
+									</linearGradient>
+								</defs>
+							</svg>
+						</div>
+						<p class="logo__text"><span>VPN EXPERT</span>Protected your connections!</p>
+					</a>
+					<div class="header__actions actions">
+						<a href="sing-in-support.html" class="actions__item"><span>Support</span></a>
+						<a href="sing-in-policy.html" class="actions__item"><span>Private Policy</span></a>
+						<a href="sing-in-get.html" class="actions__get">
+							<p>Get App</p>
+							<span>
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3.47215 8.25214C3.17237 7.87475 3.23543 7.32561 3.61379 7.02583C3.99119 6.72606 4.54032 6.78911 4.8401 7.16748L6.91338 9.78029V0.873154C6.91338 0.390977 7.30436 0 7.78653 0C8.26871 0 8.65969 0.390977 8.65969 0.873154V9.7783L10.733 7.16549C11.0327 6.7881 11.5819 6.72504 11.9593 7.02385C12.3367 7.32362 12.3997 7.87276 12.1009 8.25015L8.47056 12.8245C8.30466 13.0331 8.05338 13.1544 7.78659 13.1544C7.51979 13.1544 7.26852 13.0331 7.10261 12.8245L3.47225 8.25015L3.47215 8.25214ZM14.7 10.6504C14.2178 10.6504 13.8269 11.0414 13.8269 11.5236V12.9662C13.8269 13.6764 13.2496 14.2536 12.5394 14.2536H3.03373C2.32356 14.2536 1.74631 13.6764 1.74631 12.9662V11.5236C1.74631 11.0414 1.35533 10.6504 0.873154 10.6504C0.390977 10.6504 0 11.0414 0 11.5236V12.9662C0 14.6388 1.36117 16 3.03378 16H12.5395C14.2121 16 15.5733 14.6388 15.5733 12.9662V11.5236C15.5733 11.0414 15.1822 10.6504 14.7 10.6504Z" fill="#919191" />
+								</svg>
+							</span>
+						</a>
+						<div class="lang">
+							<button class="lang__button">
+								<div class="lang__flag"></div>
+								<div class="lang__current"></div>
+								<div class="lang__arrow">
+									<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+									</svg>
+								</div>
+							</button>
+							<div class="lang__content">
+								<ul class="lang__list">
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2232)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M2.0684 3.91211C1.28289 4.9341 0.690586 6.11203 0.345703 7.39168H5.54797L2.0684 3.91211Z" fill="#0052B4" />
+														<path d="M19.6573 7.39164C19.3124 6.11203 18.72 4.9341 17.9346 3.91211L14.4551 7.39164H19.6573Z" fill="#0052B4" />
+														<path d="M0.345703 12.6094C0.690625 13.889 1.28293 15.0669 2.0684 16.0889L5.54785 12.6094H0.345703Z" fill="#0052B4" />
+														<path d="M16.0889 2.06844C15.0669 1.28293 13.889 0.690625 12.6094 0.345703V5.54793L16.0889 2.06844Z" fill="#0052B4" />
+														<path d="M3.91211 17.9345C4.9341 18.72 6.11203 19.3123 7.39164 19.6573V14.4551L3.91211 17.9345Z" fill="#0052B4" />
+														<path d="M7.3916 0.345703C6.11199 0.690625 4.93406 1.28293 3.91211 2.0684L7.3916 5.54789V0.345703Z" fill="#0052B4" />
+														<path d="M12.6094 19.6573C13.889 19.3123 15.0669 18.72 16.0889 17.9346L12.6094 14.4551V19.6573Z" fill="#0052B4" />
+														<path d="M14.4551 12.6094L17.9346 16.0889C18.72 15.067 19.3124 13.889 19.6573 12.6094H14.4551Z" fill="#0052B4" />
+														<path d="M19.9154 8.69566H11.3044H11.3044V0.0846484C10.8774 0.0290625 10.4421 0 10 0C9.55785 0 9.12262 0.0290625 8.69566 0.0846484V8.69559V8.69563H0.0846484C0.0290625 9.12262 0 9.55793 0 10C0 10.4421 0.0290625 10.8774 0.0846484 11.3043H8.69559H8.69563V19.9154C9.12262 19.9709 9.55785 20 10 20C10.4421 20 10.8774 19.971 11.3043 19.9154V11.3044V11.3044H19.9154C19.9709 10.8774 20 10.4421 20 10C20 9.55793 19.9709 9.12262 19.9154 8.69566V8.69566Z" fill="#D80027" />
+														<path d="M12.6074 12.6075L17.0698 17.0698C17.275 16.8646 17.4708 16.6502 17.6576 16.4278L13.8372 12.6074H12.6074V12.6075Z" fill="#D80027" />
+														<path d="M7.39012 12.6074H7.39004L2.92773 17.0697C3.13289 17.275 3.34738 17.4707 3.56973 17.6575L7.39012 13.8371V12.6074Z" fill="#D80027" />
+														<path d="M7.39195 7.3902V7.39012L2.92961 2.92773C2.72438 3.13289 2.52859 3.34738 2.3418 3.56973L6.16223 7.39016H7.39195V7.3902Z" fill="#D80027" />
+														<path d="M12.6074 7.39199L17.0698 2.92957C16.8646 2.72434 16.6502 2.52855 16.4278 2.3418L12.6074 6.16223V7.39199Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2232">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">English</div>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2236)">
+														<path d="M0.621094 13.477C2.03402 17.2849 5.69945 19.9987 9.9991 19.9987C14.2987 19.9987 17.9642 17.2849 19.3771 13.477L9.9991 12.6074L0.621094 13.477Z" fill="#FFDA44" />
+														<path d="M9.9991 0C5.69945 0 2.03402 2.71375 0.621094 6.52176L9.9991 7.39129L19.3771 6.52172C17.9642 2.71375 14.2987 0 9.9991 0Z" fill="black" />
+														<path d="M0.621992 6.52148C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478H19.378C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2236">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Deutschland</div>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2240)">
+														<path d="M0 10.0002C0 11.2234 0.220039 12.3951 0.621992 13.4784L10 14.348L19.378 13.4784C19.78 12.3951 20 11.2234 20 10.0002C20 8.77695 19.78 7.60523 19.378 6.52191L10 5.65234L0.621992 6.52191C0.220039 7.60523 0 8.77695 0 10.0002H0Z" fill="#FFDA44" />
+														<path d="M19.3791 6.52176C17.9661 2.71379 14.3007 0 10.0011 0C5.70141 0 2.03598 2.71379 0.623047 6.52176H19.3791Z" fill="#D80027" />
+														<path d="M0.623047 13.4785C2.03598 17.2865 5.70141 20.0003 10.0011 20.0003C14.3007 20.0003 17.9661 17.2865 19.3791 13.4785H0.623047Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2240">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">España</div>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2244)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M20.0003 9.9991C20.0003 5.69945 17.2865 2.03402 13.4785 0.621094V19.3772C17.2865 17.9642 20.0003 14.2988 20.0003 9.9991V9.9991Z" fill="#D80027" />
+														<path d="M0 9.9991C0 14.2987 2.71379 17.9642 6.52176 19.3771V0.621094C2.71379 2.03402 0 5.69945 0 9.9991Z" fill="#0052B4" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2244">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">France</div>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2248)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M20 10C20 15.5228 15.5228 20 10 20C4.47719 20 0 15.5228 0 10" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2248">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Polska</div>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2252)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M19.378 13.478C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478L10 14.3475L19.378 13.478Z" fill="#0052B4" />
+														<path d="M9.9991 20.0003C14.2987 20.0003 17.9642 17.2865 19.3771 13.4785H0.621094C2.03402 17.2865 5.69945 20.0003 9.9991 20.0003Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2252">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Русский</div>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2256)">
+														<path d="M0 9.9991C0 14.2987 2.71375 17.9641 6.52168 19.3771L7.39129 9.99906L6.52168 0.621094C2.71375 2.03406 0 5.69945 0 9.9991Z" fill="#6DA544" />
+														<path d="M19.9998 10C19.9998 4.47719 15.5226 0 9.99981 0C8.7766 0 7.60484 0.220039 6.52148 0.621992V19.378C7.60484 19.78 8.7766 20 9.99981 20C15.5226 20 19.9998 15.5228 19.9998 10Z" fill="#D80027" />
+														<path d="M6.52121 13.478C8.44219 13.478 9.99945 11.9207 9.99945 9.99973C9.99945 8.07875 8.44219 6.52148 6.52121 6.52148C4.60023 6.52148 3.04297 8.07875 3.04297 9.99973C3.04297 11.9207 4.60023 13.478 6.52121 13.478Z" fill="#FFDA44" />
+														<path d="M4.56445 8.25977V10.4337C4.56445 11.5142 5.44039 12.3902 6.52098 12.3902C7.60156 12.3902 8.4775 11.5143 8.4775 10.4337V8.25977H4.56445Z" fill="#D80027" />
+														<path d="M6.52328 11.0862C6.16367 11.0862 5.87109 10.7936 5.87109 10.434V9.56445H7.17543V10.434C7.17543 10.7936 6.88285 11.0862 6.52328 11.0862Z" fill="#F0F0F0" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2256">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Portugal</div>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2260)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#D80027" />
+														<path d="M9.59141 8.16992L10.4119 9.30059L11.7407 8.86973L10.9189 9.99941L11.7393 11.13L10.411 10.6975L9.58922 11.8272L9.59008 10.4303L8.26172 9.99781L9.59055 9.56695L9.59141 8.16992Z" fill="#F0F0F0" />
+														<path d="M7.3523 12.8259C5.79152 12.8259 4.52621 11.5605 4.52621 9.99977C4.52621 8.43898 5.79152 7.17367 7.3523 7.17367C7.83895 7.17367 8.29684 7.29676 8.6966 7.51336C8.06945 6.9 7.21176 6.52148 6.26535 6.52148C4.34434 6.52148 2.78711 8.07875 2.78711 9.99973C2.78711 11.9207 4.34438 13.478 6.26535 13.478C7.21184 13.478 8.06949 13.0994 8.6966 12.4861C8.29684 12.7028 7.83895 12.8259 7.3523 12.8259V12.8259Z" fill="#F0F0F0" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2260">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Türkiye</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<a href="sing-in-email-code.html" class="actions__sing">
+							<span class="inlet">Sign in</span>
+							<span class="sing-icon">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M19.2224 17.485C18.9569 18.7113 17.914 19.6214 16.6534 19.7274C14.7367 19.8846 12.4972 19.9992 9.99613 19.9992C7.49508 19.9992 5.25538 19.8856 3.33889 19.7274C2.07829 19.6214 1.0354 18.7113 0.769872 17.485C0.609431 16.7691 0.5273 16.0371 0.525391 15.3032V15.2549C0.539716 13.7843 1.68382 12.5664 3.1631 12.45C5.11896 12.2853 7.41953 12.1641 10.0086 12.1641C11.9205 12.1641 14.2354 12.2294 16.8321 12.45C18.3114 12.5684 19.4563 13.7853 19.4727 15.2578V15.3061C19.468 16.039 19.3847 16.77 19.2224 17.485Z" fill="#909090" />
+									<path d="M15.0419 5.00386C15.0419 7.76701 12.7824 10.0077 9.99557 10.0077C7.20877 10.0077 4.94922 7.7672 4.94922 5.00386C4.94922 2.24053 7.20877 0 9.99557 0C12.7824 0 15.0419 2.24053 15.0419 5.00386Z" fill="#909090" />
+								</svg>
+							</span>
+						</a>
+						<button class="burger">
+							<span class="burger-icon">
+								<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect x="0.573242" width="40" height="40" rx="10" fill="#3E3D43" />
+									<path d="M12.859 12C12.1489 12 11.5732 12.632 11.5732 13.4118C11.5732 14.1914 12.1489 14.8235 12.859 14.8235H28.2875C28.9976 14.8235 29.5732 14.1914 29.5732 13.4118C29.5732 12.632 28.9976 12 28.2875 12H12.859ZM12.859 18.5882C12.1489 18.5882 11.5732 19.2203 11.5732 20C11.5732 20.7797 12.1489 21.4118 12.859 21.4118H28.2875C28.9976 21.4118 29.5732 20.7797 29.5732 20C29.5732 19.2203 28.9976 18.5882 28.2875 18.5882H12.859ZM12.859 25.1765C12.1489 25.1765 11.5732 25.8085 11.5732 26.5882C11.5732 27.3679 12.1489 28 12.859 28H28.2875C28.9976 28 29.5732 27.3679 29.5732 26.5882C29.5732 25.8085 28.9976 25.1765 28.2875 25.1765H12.859Z" fill="#909090" />
+								</svg>
+							</span>
+						</button>
+					</div>
+					<div class="menus">
+						<div class="menu">
+							<div class="menu__actions">
+								<div class="menu__info">
+									<a href="sing-in-support.html" class="menu__item item-menu item-menu-sing">
+										<div class="item-menu__box">
+											<p class="item-menu__text">Support</p>
+										</div>
+									</a>
+									<a href="sing-in-policy.html" class="menu__item item-menu item-menu-sing">
+										<div class="item-menu__box">
+											<p class="item-menu__text">Private Policy</p>
+										</div>
+									</a>
+								</div>
+								<div class="menu__lang">
+									<div class="lang">
+										<button class="lang__button">
+											<div class="lang__flag"></div>
+											<div class="lang__current"></div>
+											<div class="lang__arrow">
+												<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+												</svg>
+											</div>
+										</button>
+										<div class="lang__content">
+											<div class="lang__back">
+												<span>
+													<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+													</svg>
+												</span>
+												Back
+											</div>
+											<ul class="lang__list">
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2232)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M2.0684 3.91211C1.28289 4.9341 0.690586 6.11203 0.345703 7.39168H5.54797L2.0684 3.91211Z" fill="#0052B4" />
+																	<path d="M19.6573 7.39164C19.3124 6.11203 18.72 4.9341 17.9346 3.91211L14.4551 7.39164H19.6573Z" fill="#0052B4" />
+																	<path d="M0.345703 12.6094C0.690625 13.889 1.28293 15.0669 2.0684 16.0889L5.54785 12.6094H0.345703Z" fill="#0052B4" />
+																	<path d="M16.0889 2.06844C15.0669 1.28293 13.889 0.690625 12.6094 0.345703V5.54793L16.0889 2.06844Z" fill="#0052B4" />
+																	<path d="M3.91211 17.9345C4.9341 18.72 6.11203 19.3123 7.39164 19.6573V14.4551L3.91211 17.9345Z" fill="#0052B4" />
+																	<path d="M7.3916 0.345703C6.11199 0.690625 4.93406 1.28293 3.91211 2.0684L7.3916 5.54789V0.345703Z" fill="#0052B4" />
+																	<path d="M12.6094 19.6573C13.889 19.3123 15.0669 18.72 16.0889 17.9346L12.6094 14.4551V19.6573Z" fill="#0052B4" />
+																	<path d="M14.4551 12.6094L17.9346 16.0889C18.72 15.067 19.3124 13.889 19.6573 12.6094H14.4551Z" fill="#0052B4" />
+																	<path d="M19.9154 8.69566H11.3044H11.3044V0.0846484C10.8774 0.0290625 10.4421 0 10 0C9.55785 0 9.12262 0.0290625 8.69566 0.0846484V8.69559V8.69563H0.0846484C0.0290625 9.12262 0 9.55793 0 10C0 10.4421 0.0290625 10.8774 0.0846484 11.3043H8.69559H8.69563V19.9154C9.12262 19.9709 9.55785 20 10 20C10.4421 20 10.8774 19.971 11.3043 19.9154V11.3044V11.3044H19.9154C19.9709 10.8774 20 10.4421 20 10C20 9.55793 19.9709 9.12262 19.9154 8.69566V8.69566Z" fill="#D80027" />
+																	<path d="M12.6074 12.6075L17.0698 17.0698C17.275 16.8646 17.4708 16.6502 17.6576 16.4278L13.8372 12.6074H12.6074V12.6075Z" fill="#D80027" />
+																	<path d="M7.39012 12.6074H7.39004L2.92773 17.0697C3.13289 17.275 3.34738 17.4707 3.56973 17.6575L7.39012 13.8371V12.6074Z" fill="#D80027" />
+																	<path d="M7.39195 7.3902V7.39012L2.92961 2.92773C2.72438 3.13289 2.52859 3.34738 2.3418 3.56973L6.16223 7.39016H7.39195V7.3902Z" fill="#D80027" />
+																	<path d="M12.6074 7.39199L17.0698 2.92957C16.8646 2.72434 16.6502 2.52855 16.4278 2.3418L12.6074 6.16223V7.39199Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2232">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">English</div>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2236)">
+																	<path d="M0.621094 13.477C2.03402 17.2849 5.69945 19.9987 9.9991 19.9987C14.2987 19.9987 17.9642 17.2849 19.3771 13.477L9.9991 12.6074L0.621094 13.477Z" fill="#FFDA44" />
+																	<path d="M9.9991 0C5.69945 0 2.03402 2.71375 0.621094 6.52176L9.9991 7.39129L19.3771 6.52172C17.9642 2.71375 14.2987 0 9.9991 0Z" fill="black" />
+																	<path d="M0.621992 6.52148C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478H19.378C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2236">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Deutschland</div>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2240)">
+																	<path d="M0 10.0002C0 11.2234 0.220039 12.3951 0.621992 13.4784L10 14.348L19.378 13.4784C19.78 12.3951 20 11.2234 20 10.0002C20 8.77695 19.78 7.60523 19.378 6.52191L10 5.65234L0.621992 6.52191C0.220039 7.60523 0 8.77695 0 10.0002H0Z" fill="#FFDA44" />
+																	<path d="M19.3791 6.52176C17.9661 2.71379 14.3007 0 10.0011 0C5.70141 0 2.03598 2.71379 0.623047 6.52176H19.3791Z" fill="#D80027" />
+																	<path d="M0.623047 13.4785C2.03598 17.2865 5.70141 20.0003 10.0011 20.0003C14.3007 20.0003 17.9661 17.2865 19.3791 13.4785H0.623047Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2240">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">España</div>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2244)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M20.0003 9.9991C20.0003 5.69945 17.2865 2.03402 13.4785 0.621094V19.3772C17.2865 17.9642 20.0003 14.2988 20.0003 9.9991V9.9991Z" fill="#D80027" />
+																	<path d="M0 9.9991C0 14.2987 2.71379 17.9642 6.52176 19.3771V0.621094C2.71379 2.03402 0 5.69945 0 9.9991Z" fill="#0052B4" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2244">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">France</div>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2248)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M20 10C20 15.5228 15.5228 20 10 20C4.47719 20 0 15.5228 0 10" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2248">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Polska</div>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2252)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M19.378 13.478C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478L10 14.3475L19.378 13.478Z" fill="#0052B4" />
+																	<path d="M9.9991 20.0003C14.2987 20.0003 17.9642 17.2865 19.3771 13.4785H0.621094C2.03402 17.2865 5.69945 20.0003 9.9991 20.0003Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2252">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Русский</div>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2256)">
+																	<path d="M0 9.9991C0 14.2987 2.71375 17.9641 6.52168 19.3771L7.39129 9.99906L6.52168 0.621094C2.71375 2.03406 0 5.69945 0 9.9991Z" fill="#6DA544" />
+																	<path d="M19.9998 10C19.9998 4.47719 15.5226 0 9.99981 0C8.7766 0 7.60484 0.220039 6.52148 0.621992V19.378C7.60484 19.78 8.7766 20 9.99981 20C15.5226 20 19.9998 15.5228 19.9998 10Z" fill="#D80027" />
+																	<path d="M6.52121 13.478C8.44219 13.478 9.99945 11.9207 9.99945 9.99973C9.99945 8.07875 8.44219 6.52148 6.52121 6.52148C4.60023 6.52148 3.04297 8.07875 3.04297 9.99973C3.04297 11.9207 4.60023 13.478 6.52121 13.478Z" fill="#FFDA44" />
+																	<path d="M4.56445 8.25977V10.4337C4.56445 11.5142 5.44039 12.3902 6.52098 12.3902C7.60156 12.3902 8.4775 11.5143 8.4775 10.4337V8.25977H4.56445Z" fill="#D80027" />
+																	<path d="M6.52328 11.0862C6.16367 11.0862 5.87109 10.7936 5.87109 10.434V9.56445H7.17543V10.434C7.17543 10.7936 6.88285 11.0862 6.52328 11.0862Z" fill="#F0F0F0" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2256">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Portugal</div>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2260)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#D80027" />
+																	<path d="M9.59141 8.16992L10.4119 9.30059L11.7407 8.86973L10.9189 9.99941L11.7393 11.13L10.411 10.6975L9.58922 11.8272L9.59008 10.4303L8.26172 9.99781L9.59055 9.56695L9.59141 8.16992Z" fill="#F0F0F0" />
+																	<path d="M7.3523 12.8259C5.79152 12.8259 4.52621 11.5605 4.52621 9.99977C4.52621 8.43898 5.79152 7.17367 7.3523 7.17367C7.83895 7.17367 8.29684 7.29676 8.6966 7.51336C8.06945 6.9 7.21176 6.52148 6.26535 6.52148C4.34434 6.52148 2.78711 8.07875 2.78711 9.99973C2.78711 11.9207 4.34438 13.478 6.26535 13.478C7.21184 13.478 8.06949 13.0994 8.6966 12.4861C8.29684 12.7028 7.83895 12.8259 7.3523 12.8259V12.8259Z" fill="#F0F0F0" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2260">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Türkiye</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="mainpage">
+			<section class="section section-sing section-email section-your-code">
+				<div class="section-sing__container">
+					<div class="section-sing__wrap">
+						<div class="section-email__inner">
+							<div class="block-sing">
+								<div class="block-sing__wpar">
+									<div class="section-email__box">
+										<h3 class="title-sing">Sign in to dashboard</h3>
+										<div class="section-email__actions actions-email">
+											<div class="actions-email__box">
+												<button class="actions-email__item item-sing-email active">With E-mail</button>
+												<button class="actions-email__item item-sing-code">With in-app code</button>
+											</div>
+											<div class="actions-email-line"></div>
+										</div>
+										<div class="section-email__block">
+											Code sent to your e-mail:
+											<span class="current-email">username@gmail.com</span>
+										</div>
+										<form action="#" class="section-email__form form-sing form-your-code custom-form">
+											<div class="form-sing__items">
+												<div class="form-sing__label">Your code</div>
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="XXXXXX" class="form-sing__item" required>
+											</div>
+											<div class="form-sing__bottom">
+												<button type="submit" class="form-sing__btn">Sign in</button>
+												<p class="bottom-sing-code__text"><span>Haven't received the code?</span><span>Please check the "Spam" folder.</span></p>
+												<a href="#!" class="bottom-sing-code__try"> Try agian</a>
+											</div>
+										</form>
+
+										<form action="#" class="section-email__form form-sing form-enter-code custom-form">
+											<div class="form-sing__items">
+												<div class="form-sing__label">Enter code</div>
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="XXXXXX" class="form-sing__item" required>
+											</div>
+											<div class="form-sing__bottom">
+												<button type="submit" class="form-sing__btn">Request code</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__inner">
+					<div class="footer__copy-text">
+						<p>VPN Expert </p>
+						<p><span>
+								<script>
+									document.write(new Date().getFullYear() + '.');
+								</script>
+							</span> All rights reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="block-sings">
+			<div class="block-sing account-exit">
+				<div class="block-sing__wpar">
+					<div class="account-exit__box">
+						<div class="box-sing">
+							<h3 class="title-sing">Sign out of the account? </h3>
+							<p class="text-sing"><span>You can return to your account</span> <span>at any time</span></p>
+						</div>
+						<div class="account-exit__buttons button-sing">
+							<button class="button-sing__item button-sing__item--cancel account-cancel"><span>Cancel</span></button>
+							<a href="index.html" class="button-sing__item button-sing__item--out account-out"><span>Yes, Sign Out</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+
+
+	<script defer src="js/app.min.js?_v=20241028135548"></script>
+
+</body>
+
+
+</html>

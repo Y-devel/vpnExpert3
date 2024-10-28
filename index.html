@@ -1,0 +1,2620 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+	<title>VPN EXPERT</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css?_v=20241028135548">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241028135548">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__inner">
+					<a href="#!" class="logo">
+						<div class="logo__icon">
+							<svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.1186 2.21684L16.1186 2.21687L30.7836 7.13853C30.9126 7.18184 30.9997 7.30284 30.9997 7.43922V19.7375C30.9997 28.3316 25.0536 35.9805 16.1106 38.7168C16.0803 38.726 16.0491 38.7306 16.018 38.7306C15.987 38.7306 15.9558 38.726 15.9253 38.7167C6.98236 35.9804 1.03633 28.3316 1.03633 19.7375V7.00459C1.03633 6.86494 1.12746 6.74199 1.26044 6.70127C1.26046 6.70127 1.26047 6.70126 1.26048 6.70126L15.9255 2.21428L15.9257 2.21421C15.9886 2.19494 16.056 2.19582 16.1186 2.21684Z" fill="#04AFD4" stroke="url(#paint0_linear_3885_3503)" stroke-width="1.6" />
+								<path d="M16.0968 1.52305L16.0969 1.52308L30.7461 6.53422C30.7461 6.53422 30.7461 6.53422 30.7461 6.53422C30.8693 6.57639 30.9657 6.70079 30.9657 6.85565V19.3775C30.9657 28.145 25.0156 35.9332 16.0891 38.7171C16.0601 38.7261 16.0305 38.7306 16.001 38.7306C15.9718 38.7306 15.9421 38.7262 15.913 38.7171C6.98647 35.9332 1.03633 28.145 1.03633 19.3775V6.41313C1.03633 6.25443 1.13721 6.12859 1.26371 6.08911C1.26372 6.0891 1.26374 6.0891 1.26375 6.0891L15.913 1.52053L15.9132 1.52046C15.9732 1.50175 16.037 1.50257 16.0968 1.52305Z" fill="#04AFD4" stroke="url(#paint1_linear_3885_3503)" stroke-width="1.6" />
+								<path d="M20.2885 9.55231C19.6961 8.9599 19.0056 8.50215 18.2354 8.1874C17.4918 7.88596 16.7067 7.73252 15.9017 7.73209C15.0967 7.73166 14.3118 7.88425 13.5685 8.18488C12.7986 8.49549 12.1086 8.95582 11.5169 9.54759C10.9251 10.1394 10.4681 10.8293 10.1542 11.5992C9.85353 12.3425 9.70093 13.1274 9.70136 13.9324C9.70179 14.7374 9.85523 15.5225 10.1567 16.2661C10.4681 17.0363 10.9292 17.7268 11.5216 18.3192C12.2621 19.0597 13.1738 19.5991 14.1735 19.8907L14.1742 30.3871C14.1743 30.6299 14.3208 30.8528 14.5703 30.9528C14.6219 30.9744 14.6801 30.9827 14.7367 30.9828L17.0884 30.984C17.145 30.9841 17.2015 30.9741 17.2547 30.9542C17.5041 30.8545 17.6521 30.6334 17.6502 30.3889L17.6495 28.9353L19.7417 28.9364C19.7983 28.9364 19.8548 28.9265 19.908 28.9066C20.1575 28.8069 20.3054 28.5858 20.3036 28.3413L20.3023 26.0228C20.3023 25.9663 20.2923 25.9097 20.2723 25.8565C20.1724 25.607 19.9511 25.4588 19.7066 25.4604L17.6476 25.4593L17.6429 19.8959C18.6407 19.6071 19.5535 19.067 20.2932 18.3273C20.885 17.7355 21.342 17.0455 21.6559 16.2757C21.9565 15.5324 22.1091 14.7474 22.1087 13.9425C22.1083 13.1375 21.9548 12.3524 21.6534 11.6088C21.3387 10.8352 20.8809 10.1447 20.2885 9.55231ZM18.9803 13.9391C18.9807 14.7607 18.6601 15.5339 18.08 16.114C17.4999 16.6942 16.7266 17.0148 15.905 17.0143C15.0834 17.0139 14.3082 16.6941 13.7275 16.1134C13.145 15.5309 12.8253 14.759 12.8248 13.9374C12.8244 13.1158 13.145 12.3426 13.7251 11.7625C14.3053 11.1823 15.0785 10.8617 15.9001 10.8622C16.7217 10.8626 17.4952 11.184 18.076 11.7648C18.6601 12.3423 18.9815 13.1158 18.9803 13.9391Z" fill="white" />
+								<path d="M16.001 6.85565V0.707031C15.9481 0.707031 15.8423 0.707031 15.6748 0.756812L1.02553 5.32539C0.556604 5.47166 0.236328 5.91305 0.236328 6.41313V19.3775C0.236328 28.5221 6.44056 36.601 15.6748 39.4808C15.7811 39.514 15.8911 39.5306 16.001 39.5306C16.001 33.0828 16.001 28.5221 16.001 19.3775V6.85565Z" fill="white" fill-opacity="0.3" />
+								<defs>
+									<linearGradient id="paint0_linear_3885_3503" x1="16.018" y1="1.40039" x2="16.018" y2="39.5306" gradientUnits="userSpaceOnUse">
+										<stop stop-color="#03F4FD" />
+										<stop offset="1" stop-color="#03D0FD" />
+									</linearGradient>
+									<linearGradient id="paint1_linear_3885_3503" x1="16.001" y1="0.707031" x2="16.001" y2="39.5306" gradientUnits="userSpaceOnUse">
+										<stop stop-color="#03F4FD" />
+										<stop offset="1" stop-color="#03D0FD" />
+									</linearGradient>
+								</defs>
+							</svg>
+						</div>
+						<p class="logo__text"><span>VPN EXPERT</span>Fast - Stable - Simple</p>
+					</a>
+					<ul class="header__list">
+						<li class="header__item"><a href="#features" class="header__link">Features</a></li>
+						<li class="header__item"><a href="#use" class="header__link">Compatibility</a></li>
+						<li class="header__item"><a href="#reviews" class="header__link">Reviews</a></li>
+						<li class="header__item"><a href="#choose" class="header__link">Download</a></li>
+					</ul>
+					<div class="header__actions">
+						<div class="lang">
+							<button class="lang__button">
+								<div class="lang__flag"></div>
+								<div class="lang__current"></div>
+								<div class="lang__arrow">
+									<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+									</svg>
+								</div>
+							</button>
+							<div class="lang__content">
+								<ul class="lang__list">
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2232)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M2.0684 3.91211C1.28289 4.9341 0.690586 6.11203 0.345703 7.39168H5.54797L2.0684 3.91211Z" fill="#0052B4" />
+														<path d="M19.6573 7.39164C19.3124 6.11203 18.72 4.9341 17.9346 3.91211L14.4551 7.39164H19.6573Z" fill="#0052B4" />
+														<path d="M0.345703 12.6094C0.690625 13.889 1.28293 15.0669 2.0684 16.0889L5.54785 12.6094H0.345703Z" fill="#0052B4" />
+														<path d="M16.0889 2.06844C15.0669 1.28293 13.889 0.690625 12.6094 0.345703V5.54793L16.0889 2.06844Z" fill="#0052B4" />
+														<path d="M3.91211 17.9345C4.9341 18.72 6.11203 19.3123 7.39164 19.6573V14.4551L3.91211 17.9345Z" fill="#0052B4" />
+														<path d="M7.3916 0.345703C6.11199 0.690625 4.93406 1.28293 3.91211 2.0684L7.3916 5.54789V0.345703Z" fill="#0052B4" />
+														<path d="M12.6094 19.6573C13.889 19.3123 15.0669 18.72 16.0889 17.9346L12.6094 14.4551V19.6573Z" fill="#0052B4" />
+														<path d="M14.4551 12.6094L17.9346 16.0889C18.72 15.067 19.3124 13.889 19.6573 12.6094H14.4551Z" fill="#0052B4" />
+														<path d="M19.9154 8.69566H11.3044H11.3044V0.0846484C10.8774 0.0290625 10.4421 0 10 0C9.55785 0 9.12262 0.0290625 8.69566 0.0846484V8.69559V8.69563H0.0846484C0.0290625 9.12262 0 9.55793 0 10C0 10.4421 0.0290625 10.8774 0.0846484 11.3043H8.69559H8.69563V19.9154C9.12262 19.9709 9.55785 20 10 20C10.4421 20 10.8774 19.971 11.3043 19.9154V11.3044V11.3044H19.9154C19.9709 10.8774 20 10.4421 20 10C20 9.55793 19.9709 9.12262 19.9154 8.69566V8.69566Z" fill="#D80027" />
+														<path d="M12.6074 12.6075L17.0698 17.0698C17.275 16.8646 17.4708 16.6502 17.6576 16.4278L13.8372 12.6074H12.6074V12.6075Z" fill="#D80027" />
+														<path d="M7.39012 12.6074H7.39004L2.92773 17.0697C3.13289 17.275 3.34738 17.4707 3.56973 17.6575L7.39012 13.8371V12.6074Z" fill="#D80027" />
+														<path d="M7.39195 7.3902V7.39012L2.92961 2.92773C2.72438 3.13289 2.52859 3.34738 2.3418 3.56973L6.16223 7.39016H7.39195V7.3902Z" fill="#D80027" />
+														<path d="M12.6074 7.39199L17.0698 2.92957C16.8646 2.72434 16.6502 2.52855 16.4278 2.3418L12.6074 6.16223V7.39199Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2232">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">English</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2236)">
+														<path d="M0.621094 13.477C2.03402 17.2849 5.69945 19.9987 9.9991 19.9987C14.2987 19.9987 17.9642 17.2849 19.3771 13.477L9.9991 12.6074L0.621094 13.477Z" fill="#FFDA44" />
+														<path d="M9.9991 0C5.69945 0 2.03402 2.71375 0.621094 6.52176L9.9991 7.39129L19.3771 6.52172C17.9642 2.71375 14.2987 0 9.9991 0Z" fill="black" />
+														<path d="M0.621992 6.52148C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478H19.378C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2236">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Deutschland</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2240)">
+														<path d="M0 10.0002C0 11.2234 0.220039 12.3951 0.621992 13.4784L10 14.348L19.378 13.4784C19.78 12.3951 20 11.2234 20 10.0002C20 8.77695 19.78 7.60523 19.378 6.52191L10 5.65234L0.621992 6.52191C0.220039 7.60523 0 8.77695 0 10.0002H0Z" fill="#FFDA44" />
+														<path d="M19.3791 6.52176C17.9661 2.71379 14.3007 0 10.0011 0C5.70141 0 2.03598 2.71379 0.623047 6.52176H19.3791Z" fill="#D80027" />
+														<path d="M0.623047 13.4785C2.03598 17.2865 5.70141 20.0003 10.0011 20.0003C14.3007 20.0003 17.9661 17.2865 19.3791 13.4785H0.623047Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2240">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">España</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2244)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M20.0003 9.9991C20.0003 5.69945 17.2865 2.03402 13.4785 0.621094V19.3772C17.2865 17.9642 20.0003 14.2988 20.0003 9.9991V9.9991Z" fill="#D80027" />
+														<path d="M0 9.9991C0 14.2987 2.71379 17.9642 6.52176 19.3771V0.621094C2.71379 2.03402 0 5.69945 0 9.9991Z" fill="#0052B4" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2244">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">France</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2248)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M20 10C20 15.5228 15.5228 20 10 20C4.47719 20 0 15.5228 0 10" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2248">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Polska</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2252)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+														<path d="M19.378 13.478C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478L10 14.3475L19.378 13.478Z" fill="#0052B4" />
+														<path d="M9.9991 20.0003C14.2987 20.0003 17.9642 17.2865 19.3771 13.4785H0.621094C2.03402 17.2865 5.69945 20.0003 9.9991 20.0003Z" fill="#D80027" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2252">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Русский</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2256)">
+														<path d="M0 9.9991C0 14.2987 2.71375 17.9641 6.52168 19.3771L7.39129 9.99906L6.52168 0.621094C2.71375 2.03406 0 5.69945 0 9.9991Z" fill="#6DA544" />
+														<path d="M19.9998 10C19.9998 4.47719 15.5226 0 9.99981 0C8.7766 0 7.60484 0.220039 6.52148 0.621992V19.378C7.60484 19.78 8.7766 20 9.99981 20C15.5226 20 19.9998 15.5228 19.9998 10Z" fill="#D80027" />
+														<path d="M6.52121 13.478C8.44219 13.478 9.99945 11.9207 9.99945 9.99973C9.99945 8.07875 8.44219 6.52148 6.52121 6.52148C4.60023 6.52148 3.04297 8.07875 3.04297 9.99973C3.04297 11.9207 4.60023 13.478 6.52121 13.478Z" fill="#FFDA44" />
+														<path d="M4.56445 8.25977V10.4337C4.56445 11.5142 5.44039 12.3902 6.52098 12.3902C7.60156 12.3902 8.4775 11.5143 8.4775 10.4337V8.25977H4.56445Z" fill="#D80027" />
+														<path d="M6.52328 11.0862C6.16367 11.0862 5.87109 10.7936 5.87109 10.434V9.56445H7.17543V10.434C7.17543 10.7936 6.88285 11.0862 6.52328 11.0862Z" fill="#F0F0F0" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2256">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Portugal</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+									<li class="lang__item">
+										<div class="lang__box">
+											<div class="lang__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_3885_2260)">
+														<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#D80027" />
+														<path d="M9.59141 8.16992L10.4119 9.30059L11.7407 8.86973L10.9189 9.99941L11.7393 11.13L10.411 10.6975L9.58922 11.8272L9.59008 10.4303L8.26172 9.99781L9.59055 9.56695L9.59141 8.16992Z" fill="#F0F0F0" />
+														<path d="M7.3523 12.8259C5.79152 12.8259 4.52621 11.5605 4.52621 9.99977C4.52621 8.43898 5.79152 7.17367 7.3523 7.17367C7.83895 7.17367 8.29684 7.29676 8.6966 7.51336C8.06945 6.9 7.21176 6.52148 6.26535 6.52148C4.34434 6.52148 2.78711 8.07875 2.78711 9.99973C2.78711 11.9207 4.34438 13.478 6.26535 13.478C7.21184 13.478 8.06949 13.0994 8.6966 12.4861C8.29684 12.7028 7.83895 12.8259 7.3523 12.8259V12.8259Z" fill="#F0F0F0" />
+													</g>
+													<defs>
+														<clipPath id="clip0_3885_2260">
+															<rect width="20" height="20" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+											<div class="lang__text">Türkiye</div>
+										</div>
+										<div class="lang__el">
+											<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="lang__btn-el">
+								<svg width="140" height="52" viewBox="0 0 140 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="140" height="52" rx="26" fill="url(#paint0_linear_3948_2389)" />
+									<rect x="0.5" y="0.5" width="139" height="51" rx="25.5" stroke="url(#paint1_linear_3948_2389)" stroke-opacity="0.3" />
+									<defs>
+										<linearGradient id="paint0_linear_3948_2389" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#161320" />
+											<stop offset="1" stop-color="#0F0D16" />
+										</linearGradient>
+										<linearGradient id="paint1_linear_3948_2389" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#78E7FF" />
+											<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="lang__btn-elAct">
+								<svg width="140" height="52" viewBox="0 0 140 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="140" height="52" rx="26" fill="url(#paint0_linear_3948_3201)" />
+									<rect x="0.5" y="0.5" width="139" height="51" rx="25.5" stroke="url(#paint1_linear_3948_3201)" stroke-opacity="0.3" />
+									<defs>
+										<linearGradient id="paint0_linear_3948_3201" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#2E2940" />
+											<stop offset="1" stop-color="#1F1B2C" />
+										</linearGradient>
+										<linearGradient id="paint1_linear_3948_3201" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#78E7FF" />
+											<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+						</div>
+						<a href="sing-in-email.html" class="sing">
+							<div class="sing__icon">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M19.2224 17.485C18.9569 18.7113 17.914 19.6214 16.6534 19.7274C14.7367 19.8846 12.4972 19.9992 9.99613 19.9992C7.49508 19.9992 5.25538 19.8856 3.33889 19.7274C2.07829 19.6214 1.0354 18.7113 0.769872 17.485C0.609431 16.7691 0.5273 16.0371 0.525391 15.3032V15.2549C0.539716 13.7843 1.68382 12.5664 3.1631 12.45C5.11896 12.2853 7.41953 12.1641 10.0086 12.1641C11.9205 12.1641 14.2354 12.2294 16.8321 12.45C18.3114 12.5684 19.4563 13.7853 19.4727 15.2578V15.3061C19.468 16.039 19.3847 16.77 19.2224 17.485Z" fill="#01B9E1" />
+									<path d="M15.0419 5.00386C15.0419 7.76701 12.7824 10.0077 9.99557 10.0077C7.20877 10.0077 4.94922 7.7672 4.94922 5.00386C4.94922 2.24053 7.20877 0 9.99557 0C12.7824 0 15.0419 2.24053 15.0419 5.00386Z" fill="#01B9E1" />
+								</svg>
+							</div>
+							<p class="sing__text">Sign In</p>
+						</a>
+						<button class="burger">
+							<span class="el"></span>
+							<span class="el"></span>
+							<span class="icon">
+								<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M17.5113 15.1519C17.8242 15.4648 18 15.8891 18 16.3316C18 16.7741 17.8242 17.1985 17.5113 17.5113C17.1985 17.8242 16.7741 18 16.3316 18C15.8891 18 15.4648 17.8242 15.1519 17.5113L9.2696 11.6291C9.1981 11.5576 9.10112 11.5174 9 11.5174C8.89888 11.5174 8.8019 11.5576 8.7304 11.6291L2.84811 17.5113C2.53523 17.8242 2.11087 18 1.66839 18C1.2259 18 0.801542 17.8242 0.488659 17.5113C0.175776 17.1985 0 16.7741 0 16.3316C0 15.8891 0.175776 15.4648 0.488659 15.1519L6.37094 9.2698C6.44246 9.19826 6.48263 9.10125 6.48263 9.0001C6.48263 8.89894 6.44246 8.80193 6.37094 8.7304L0.488659 2.84811C0.175776 2.53523 0 2.11087 0 1.66839C0 1.2259 0.175776 0.801542 0.488659 0.488659C0.801542 0.175776 1.2259 0 1.66839 0C2.11087 0 2.53523 0.175776 2.84811 0.488659L8.7304 6.37114C8.8019 6.44264 8.89888 6.48281 9 6.48281C9.10112 6.48281 9.1981 6.44264 9.2696 6.37114L15.1519 0.488659C15.4648 0.175776 15.8891 0 16.3316 0C16.7741 0 17.1985 0.175776 17.5113 0.488659C17.8242 0.801542 18 1.2259 18 1.66839C18 2.11087 17.8242 2.53523 17.5113 2.84811L11.6291 8.7304C11.5575 8.80193 11.5174 8.89894 11.5174 9.0001C11.5174 9.10125 11.5575 9.19826 11.6291 9.2698L17.5113 15.1519Z" fill="#01B9E1" />
+								</svg>
+							</span>
+						</button>
+					</div>
+					<div class="menus">
+						<div class="menu">
+							<div class="menu__actions">
+								<div class="menu__info">
+									<a href="#features" class="menu__item item-menu">
+										<div class="item-menu__box">
+											<p class="item-menu__text">Features</p>
+										</div>
+										<div class="lang__el">
+											<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</a>
+									<a href="#use" class="menu__item item-menu">
+										<div class="item-menu__box">
+											<p class="item-menu__text">Compatibility</p>
+										</div>
+										<div class="lang__el">
+											<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</a>
+									<a href="#reviews" class="menu__item item-menu">
+										<div class="item-menu__box">
+											<p class="item-menu__text">Reviews</p>
+										</div>
+										<div class="lang__el">
+											<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</a>
+									<a href="#choose" class="menu__item item-menu">
+										<div class="item-menu__box">
+											<p class="item-menu__text">Download</p>
+										</div>
+										<div class="lang__el">
+											<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</a>
+								</div>
+								<div class="menu__lang">
+									<div class="lang">
+										<button class="lang__button">
+											<div class="lang__flag"></div>
+											<div class="lang__current"></div>
+											<div class="lang__arrow">
+												<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+												</svg>
+											</div>
+										</button>
+										<div class="lang__content">
+											<div class="lang__back">
+												<span>
+													<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+													</svg>
+												</span>
+												Back
+											</div>
+											<ul class="lang__list">
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2232)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M2.0684 3.91211C1.28289 4.9341 0.690586 6.11203 0.345703 7.39168H5.54797L2.0684 3.91211Z" fill="#0052B4" />
+																	<path d="M19.6573 7.39164C19.3124 6.11203 18.72 4.9341 17.9346 3.91211L14.4551 7.39164H19.6573Z" fill="#0052B4" />
+																	<path d="M0.345703 12.6094C0.690625 13.889 1.28293 15.0669 2.0684 16.0889L5.54785 12.6094H0.345703Z" fill="#0052B4" />
+																	<path d="M16.0889 2.06844C15.0669 1.28293 13.889 0.690625 12.6094 0.345703V5.54793L16.0889 2.06844Z" fill="#0052B4" />
+																	<path d="M3.91211 17.9345C4.9341 18.72 6.11203 19.3123 7.39164 19.6573V14.4551L3.91211 17.9345Z" fill="#0052B4" />
+																	<path d="M7.3916 0.345703C6.11199 0.690625 4.93406 1.28293 3.91211 2.0684L7.3916 5.54789V0.345703Z" fill="#0052B4" />
+																	<path d="M12.6094 19.6573C13.889 19.3123 15.0669 18.72 16.0889 17.9346L12.6094 14.4551V19.6573Z" fill="#0052B4" />
+																	<path d="M14.4551 12.6094L17.9346 16.0889C18.72 15.067 19.3124 13.889 19.6573 12.6094H14.4551Z" fill="#0052B4" />
+																	<path d="M19.9154 8.69566H11.3044H11.3044V0.0846484C10.8774 0.0290625 10.4421 0 10 0C9.55785 0 9.12262 0.0290625 8.69566 0.0846484V8.69559V8.69563H0.0846484C0.0290625 9.12262 0 9.55793 0 10C0 10.4421 0.0290625 10.8774 0.0846484 11.3043H8.69559H8.69563V19.9154C9.12262 19.9709 9.55785 20 10 20C10.4421 20 10.8774 19.971 11.3043 19.9154V11.3044V11.3044H19.9154C19.9709 10.8774 20 10.4421 20 10C20 9.55793 19.9709 9.12262 19.9154 8.69566V8.69566Z" fill="#D80027" />
+																	<path d="M12.6074 12.6075L17.0698 17.0698C17.275 16.8646 17.4708 16.6502 17.6576 16.4278L13.8372 12.6074H12.6074V12.6075Z" fill="#D80027" />
+																	<path d="M7.39012 12.6074H7.39004L2.92773 17.0697C3.13289 17.275 3.34738 17.4707 3.56973 17.6575L7.39012 13.8371V12.6074Z" fill="#D80027" />
+																	<path d="M7.39195 7.3902V7.39012L2.92961 2.92773C2.72438 3.13289 2.52859 3.34738 2.3418 3.56973L6.16223 7.39016H7.39195V7.3902Z" fill="#D80027" />
+																	<path d="M12.6074 7.39199L17.0698 2.92957C16.8646 2.72434 16.6502 2.52855 16.4278 2.3418L12.6074 6.16223V7.39199Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2232">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">English</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2236)">
+																	<path d="M0.621094 13.477C2.03402 17.2849 5.69945 19.9987 9.9991 19.9987C14.2987 19.9987 17.9642 17.2849 19.3771 13.477L9.9991 12.6074L0.621094 13.477Z" fill="#FFDA44" />
+																	<path d="M9.9991 0C5.69945 0 2.03402 2.71375 0.621094 6.52176L9.9991 7.39129L19.3771 6.52172C17.9642 2.71375 14.2987 0 9.9991 0Z" fill="black" />
+																	<path d="M0.621992 6.52148C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478H19.378C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2236">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Deutschland</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2240)">
+																	<path d="M0 10.0002C0 11.2234 0.220039 12.3951 0.621992 13.4784L10 14.348L19.378 13.4784C19.78 12.3951 20 11.2234 20 10.0002C20 8.77695 19.78 7.60523 19.378 6.52191L10 5.65234L0.621992 6.52191C0.220039 7.60523 0 8.77695 0 10.0002H0Z" fill="#FFDA44" />
+																	<path d="M19.3791 6.52176C17.9661 2.71379 14.3007 0 10.0011 0C5.70141 0 2.03598 2.71379 0.623047 6.52176H19.3791Z" fill="#D80027" />
+																	<path d="M0.623047 13.4785C2.03598 17.2865 5.70141 20.0003 10.0011 20.0003C14.3007 20.0003 17.9661 17.2865 19.3791 13.4785H0.623047Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2240">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">España</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2244)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M20.0003 9.9991C20.0003 5.69945 17.2865 2.03402 13.4785 0.621094V19.3772C17.2865 17.9642 20.0003 14.2988 20.0003 9.9991V9.9991Z" fill="#D80027" />
+																	<path d="M0 9.9991C0 14.2987 2.71379 17.9642 6.52176 19.3771V0.621094C2.71379 2.03402 0 5.69945 0 9.9991Z" fill="#0052B4" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2244">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">France</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2248)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M20 10C20 15.5228 15.5228 20 10 20C4.47719 20 0 15.5228 0 10" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2248">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Polska</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2252)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																	<path d="M19.378 13.478C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478L10 14.3475L19.378 13.478Z" fill="#0052B4" />
+																	<path d="M9.9991 20.0003C14.2987 20.0003 17.9642 17.2865 19.3771 13.4785H0.621094C2.03402 17.2865 5.69945 20.0003 9.9991 20.0003Z" fill="#D80027" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2252">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Русский</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2256)">
+																	<path d="M0 9.9991C0 14.2987 2.71375 17.9641 6.52168 19.3771L7.39129 9.99906L6.52168 0.621094C2.71375 2.03406 0 5.69945 0 9.9991Z" fill="#6DA544" />
+																	<path d="M19.9998 10C19.9998 4.47719 15.5226 0 9.99981 0C8.7766 0 7.60484 0.220039 6.52148 0.621992V19.378C7.60484 19.78 8.7766 20 9.99981 20C15.5226 20 19.9998 15.5228 19.9998 10Z" fill="#D80027" />
+																	<path d="M6.52121 13.478C8.44219 13.478 9.99945 11.9207 9.99945 9.99973C9.99945 8.07875 8.44219 6.52148 6.52121 6.52148C4.60023 6.52148 3.04297 8.07875 3.04297 9.99973C3.04297 11.9207 4.60023 13.478 6.52121 13.478Z" fill="#FFDA44" />
+																	<path d="M4.56445 8.25977V10.4337C4.56445 11.5142 5.44039 12.3902 6.52098 12.3902C7.60156 12.3902 8.4775 11.5143 8.4775 10.4337V8.25977H4.56445Z" fill="#D80027" />
+																	<path d="M6.52328 11.0862C6.16367 11.0862 5.87109 10.7936 5.87109 10.434V9.56445H7.17543V10.434C7.17543 10.7936 6.88285 11.0862 6.52328 11.0862Z" fill="#F0F0F0" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2256">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Portugal</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+												<li class="lang__item">
+													<div class="lang__box">
+														<div class="lang__icon">
+															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_3885_2260)">
+																	<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#D80027" />
+																	<path d="M9.59141 8.16992L10.4119 9.30059L11.7407 8.86973L10.9189 9.99941L11.7393 11.13L10.411 10.6975L9.58922 11.8272L9.59008 10.4303L8.26172 9.99781L9.59055 9.56695L9.59141 8.16992Z" fill="#F0F0F0" />
+																	<path d="M7.3523 12.8259C5.79152 12.8259 4.52621 11.5605 4.52621 9.99977C4.52621 8.43898 5.79152 7.17367 7.3523 7.17367C7.83895 7.17367 8.29684 7.29676 8.6966 7.51336C8.06945 6.9 7.21176 6.52148 6.26535 6.52148C4.34434 6.52148 2.78711 8.07875 2.78711 9.99973C2.78711 11.9207 4.34438 13.478 6.26535 13.478C7.21184 13.478 8.06949 13.0994 8.6966 12.4861C8.29684 12.7028 7.83895 12.8259 7.3523 12.8259V12.8259Z" fill="#F0F0F0" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_3885_2260">
+																		<rect width="20" height="20" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</div>
+														<div class="lang__text">Türkiye</div>
+													</div>
+													<div class="lang__el">
+														<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+															<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+															<defs>
+																<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2E2940" />
+																	<stop offset="1" stop-color="#1F1B2C" />
+																</linearGradient>
+																<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#78E7FF" />
+																	<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="lang__menu-el">
+											<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+												<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+												<defs>
+													<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#2E2940" />
+														<stop offset="1" stop-color="#1F1B2C" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="mainpage">
+			<section class="section section-pages">
+				<div class="section-pages__container">
+					<div class="section-pages__inner">
+						<div class="section-pages__top">
+							<div class="value">
+								<div class="value__box">
+									<div class="value__icon">
+										<svg width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M7.34675 0.433467L0.486756 2.57285C0.267167 2.64134 0.117188 2.84804 0.117188 3.08222V9.15319C0.117188 13.4354 3.02251 17.2186 7.34675 18.5672C7.39654 18.5827 7.44804 18.5905 7.49951 18.5905C7.55101 18.5905 7.60252 18.5827 7.65228 18.5672C11.9765 17.2186 14.8818 13.4354 14.8818 9.15319V3.28944C14.8818 3.06059 14.7384 2.85731 14.5256 2.78448L7.66565 0.437835C7.5624 0.402504 7.45093 0.400942 7.34675 0.433467ZM13.9453 3.57579L7.49344 1.36877L1.05375 3.37707V9.15319C1.05375 12.9532 3.60642 16.3636 7.49951 17.6329C11.3926 16.3636 13.9453 12.9532 13.9453 9.15319V3.57579ZM7.34696 0.434167L7.34697 0.434169L7.34696 0.434167Z" fill="#919191" />
+											<path d="M9.50834 4.55264C9.23092 4.27522 8.90759 4.06087 8.54691 3.91347C8.19869 3.77232 7.83104 3.70046 7.45408 3.70026C7.07713 3.70006 6.70955 3.77151 6.36149 3.9123C6.00096 4.05774 5.67786 4.27331 5.40074 4.55043C5.12363 4.82754 4.90962 5.15065 4.76261 5.51117C4.62184 5.85923 4.55038 6.22681 4.55058 6.60377C4.55078 6.98073 4.62263 7.34838 4.76379 7.69659C4.90963 8.05727 5.12554 8.38061 5.40295 8.65802C5.74972 9.00479 6.17666 9.25737 6.64482 9.39392L6.64513 14.3092C6.64519 14.4229 6.71378 14.5273 6.83063 14.5741C6.85478 14.5842 6.88204 14.5881 6.90852 14.5881L8.0098 14.5887C8.03628 14.5887 8.06276 14.5841 8.08768 14.5747C8.20448 14.5281 8.27374 14.4245 8.27289 14.31L8.27253 13.6293L9.25231 13.6299C9.27879 13.6299 9.30526 13.6252 9.33017 13.6159C9.44698 13.5692 9.51625 13.4657 9.5154 13.3512L9.51481 12.2655C9.5148 12.239 9.51011 12.2125 9.50076 12.1876C9.45396 12.0707 9.35033 12.0014 9.23585 12.0021L8.27165 12.0016L8.26947 9.39635C8.7367 9.26109 9.16415 9.0082 9.51054 8.6618C9.78766 8.38468 10.0017 8.06158 10.1487 7.70106C10.2894 7.353 10.3609 6.98542 10.3607 6.60846C10.3605 6.23152 10.2887 5.86387 10.1475 5.51563C10.0001 5.15339 9.78576 4.83005 9.50834 4.55264ZM8.89573 6.60688C8.89594 6.99162 8.74581 7.35371 8.47415 7.62537C8.20248 7.89704 7.84039 8.04717 7.45565 8.04695C7.07091 8.04675 6.70789 7.89701 6.43593 7.62505C6.16319 7.35231 6.01345 6.99085 6.01325 6.6061C6.01304 6.22136 6.16317 5.85927 6.43483 5.58761C6.7065 5.31594 7.06858 5.16582 7.45332 5.16603C7.83807 5.16623 8.20031 5.31675 8.47227 5.58871C8.74578 5.85912 8.89629 6.22136 8.89573 6.60688Z" fill="#919191" />
+										</svg>
+									</div>
+									<p class="value__text">VPN Expert</p>
+								</div>
+								<div class="value__el">
+									<svg width="144" height="39" viewBox="0 0 144 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="0.5" y="0.5" width="143" height="38" rx="19" fill="url(#paint0_linear_4050_473)" />
+										<rect x="0.5" y="0.5" width="143" height="38" rx="19" stroke="url(#paint1_linear_4050_473)" />
+										<defs>
+											<linearGradient id="paint0_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#919191" stop-opacity="0.1" />
+												<stop offset="1" stop-color="#919191" stop-opacity="0" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#919191" />
+												<stop offset="1" stop-color="#919191" stop-opacity="0" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<h2 class="title">
+								<span>Data protection for those who </span>
+								<span>value freedom and privacy</span>
+							</h2>
+							<a href="#" class="download">
+								<div class="download__icon">
+									<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M19.0015 14.8903C18.9697 11.353 21.894 9.63202 22.0277 9.5519C20.3715 7.13402 17.8046 6.80366 16.9025 6.77732C14.7465 6.55013 12.6553 8.06913 11.557 8.06913C10.4368 8.06913 8.7456 6.79927 6.92284 6.83659C4.57727 6.8728 2.38295 8.23266 1.17947 10.3443C-1.30421 14.65 0.548137 20.9773 2.92769 24.4576C4.11802 26.1632 5.50892 28.0652 7.32948 27.9983C9.11058 27.9258 9.7759 26.8623 11.9253 26.8623C14.0549 26.8623 14.6797 27.9983 16.5364 27.9555C18.4479 27.9258 19.6514 26.2433 20.8001 24.5235C22.1757 22.5709 22.7281 20.6459 22.75 20.5471C22.7062 20.5317 19.0387 19.1291 19.0015 14.8903ZM15.4941 4.48785C16.452 3.28823 17.1075 1.65619 16.9255 0C15.539 0.0614623 13.805 0.960349 12.8065 2.13362C11.9231 3.1675 11.1339 4.86211 11.3378 6.45574C12.8953 6.57208 14.4944 5.6688 15.4941 4.48785Z" fill="white" />
+									</svg>
+								</div>
+								<p class="download__text">Download App </p>
+							</a>
+						</div>
+						<div class="pages">
+							<div class="pages__pictures">
+								<div class="pages__big-image">
+									<picture><source data-srcset="img/pictures/picPages-1.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picPages-1.png?_v=1730112948985" alt="pictures"></picture>
+								</div>
+								<div class="pages__small-image">
+									<picture><source data-srcset="img/pictures/picPages-1-1.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picPages-1-1.png?_v=1730112948985" alt="pictures"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="section-pages__row">
+							<div class="section-pages__items">
+								<div class="section-pages__info">
+									<div class="section-pages__img">
+										<div class="section-pages__pictures">
+											<picture><source data-srcset="img/pictures/picCard-1.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picCard-1.png?_v=1730112948985" alt="pictures"></picture>
+										</div>
+									</div>
+									<div class="section-pages__box">
+										<div class="section-pages__title">Speed</div>
+										<p class="section-pages__text">
+											<span>High-speed servers</span>
+											<span>around the world</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="section-pages__items">
+								<div class="section-pages__info">
+									<div class="section-pages__img">
+										<div class="section-pages__pictures">
+											<picture><source data-srcset="img/pictures/picCard-2.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picCard-2.png?_v=1730112948985" alt="pictures"></picture>
+										</div>
+									</div>
+									<div class="section-pages__box">
+										<div class="section-pages__title">Locations</div>
+										<p class="section-pages__text">
+											<span>Over 110 countries</span>
+											<span>to choose from</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="section-pages__items">
+								<div class="section-pages__info">
+									<div class="section-pages__img">
+										<div class="section-pages__pictures">
+											<picture><source data-srcset="img/pictures/picCard-3.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picCard-3.png?_v=1730112948985" alt="pictures"></picture>
+										</div>
+									</div>
+									<div class="section-pages__box">
+										<div class="section-pages__title">Unlimited</div>
+										<p class="section-pages__text">
+											<span>No limits </span>
+											<span>on utilization</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="section-pages__items">
+								<div class="section-pages__info">
+									<div class="section-pages__img">
+										<div class="section-pages__pictures">
+											<picture><source data-srcset="img/pictures/picCard-4.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picCard-4.png?_v=1730112948985" alt="pictures"></picture>
+										</div>
+									</div>
+									<div class="section-pages__box">
+										<div class="section-pages__title">Networks</div>
+										<p class="section-pages__text">
+											<span>Works on all networks:</span>
+											<span>WiFi, LTE, 3G</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="features" class="section section-features">
+				<div class="section-features__container">
+					<div class="section-features__inner">
+						<div class="section-features__top">
+							<div class="value">
+								<div class="value__box">
+									<div class="value__icon">
+										<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M17.6664 7.50062L14.1982 1.49938C13.842 0.880953 13.1791 0.5 12.4666 0.5H5.53527C4.82284 0.5 4.15989 0.8859 3.80367 1.49938L0.335521 7.50062C-0.0206944 8.11905 -0.0206944 8.8859 0.335521 9.49938L3.80367 15.5006C4.15989 16.1191 4.82284 16.5 5.53527 16.5H12.4666C13.1791 16.5 13.842 16.1141 14.1982 15.5006L17.6664 9.49938C18.0226 8.88095 18.0226 8.1141 17.6664 7.50062ZM8.91932 13.0022C6.43571 13.0022 4.41715 10.9836 4.41715 8.5C4.41715 6.01639 6.43571 3.99784 8.91932 3.99784C11.4029 3.99784 13.4215 6.01639 13.4215 8.5C13.4215 10.9836 11.4029 13.0022 8.91932 13.0022Z" fill="#919191" />
+										</svg>
+									</div>
+									<p class="value__text">Features</p>
+								</div>
+								<div class="value__el">
+									<svg width="144" height="39" viewBox="0 0 144 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="0.5" y="0.5" width="143" height="38" rx="19" fill="url(#paint0_linear_4050_473)" />
+										<rect x="0.5" y="0.5" width="143" height="38" rx="19" stroke="url(#paint1_linear_4050_473)" />
+										<defs>
+											<linearGradient id="paint0_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#919191" stop-opacity="0.1" />
+												<stop offset="1" stop-color="#919191" stop-opacity="0" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#919191" />
+												<stop offset="1" stop-color="#919191" stop-opacity="0" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<h2 class="title">
+								<span>Stable and secure connection for free access </span>
+								<span>and privacy protection on the internet</span>
+							</h2>
+						</div>
+						<div class="section-features__row">
+							<div class="section-features__items">
+								<div class="section-features__info">
+									<div class="section-features__pic">
+										<div class="decor">
+											<div class="decor__img">
+												<div class="decor__pictures">
+													<picture><source data-srcset="img/pictures/decorBg.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/decorBg.png?_v=1730112948985" alt="pictures"></picture>
+												</div>
+											</div>
+										</div>
+										<div class="section-features__img">
+											<div class="section-features__pictures">
+												<picture><source data-srcset="img/pictures/picFeatures-1.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picFeatures-1.png?_v=1730112948985" alt="pictures"></picture>
+											</div>
+										</div>
+									</div>
+									<div class="section-features__box">
+										<div class="section-features__title">
+											<span>Bypass censorship and protect your </span>
+											<span>privacy with VPN Expert</span>
+										</div>
+										<p class="section-features__text">Gamers and journalists choose for a stable and secure connection. We easily bypass blockages, allowing you to enjoy your favorite content without restrictions. </p>
+									</div>
+								</div>
+							</div>
+							<div class="section-features__items">
+								<div class="section-features__info">
+									<div class="section-features__pic">
+										<div class="decor">
+											<div class="decor__img">
+												<div class="decor__pictures">
+													<picture><source data-srcset="img/pictures/decorBg.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/decorBg.png?_v=1730112948985" alt="pictures"></picture>
+												</div>
+											</div>
+										</div>
+										<div class="section-features__img">
+											<div class="section-features__pictures">
+												<picture><source data-srcset="img/pictures/picFeatures-2.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picFeatures-2.png?_v=1730112948985" alt="pictures"></picture>
+											</div>
+										</div>
+									</div>
+									<div class="section-features__box">
+										<div class="section-features__title">
+											<span>Why do we offer free vpn to ensure your </span>
+											<span>privacy and access?</span>
+										</div>
+										<p class="section-features__text">We believe the right to privacy on the internet is one of the most important human rights. By providing free access, we fulfill our mission. No tricks, just a sincere desire to ensure your privacy.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="use" class="section section-use">
+				<div class="section-use__container">
+					<div class="section-use__inner">
+						<div class="section-use__top">
+							<div class="section-use__box">
+								<div class="section-use__titles">
+									<h3 class="title">Use VPN Expert on all Apple devices</h3>
+									<span>
+										<svg width="708" height="8" viewBox="0 0 708 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="8" y="3" width="700" height="2" fill="url(#paint0_linear_3885_1686)" />
+											<circle cx="4" cy="4" r="4" fill="#01B9E1" />
+											<defs>
+												<linearGradient id="paint0_linear_3885_1686" x1="8" y1="4" x2="708" y2="4" gradientUnits="userSpaceOnUse">
+													<stop stop-color="#01B9E1" />
+													<stop offset="1" stop-color="#01B9E1" stop-opacity="0" />
+												</linearGradient>
+											</defs>
+										</svg>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="section-use__content content-use">
+							<div class="content-use__wrap">
+								<div class="content-use__box">
+									<div class="use">
+										<div class="use__pictures">
+											<picture><source data-srcset="img/pictures/bg.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/bg.jpg?_v=1730112948985" alt="pictures"></picture>
+										</div>
+									</div>
+									<div class="content-use__top">
+										<div class="content-use__title">
+											<span>The advantages </span>
+											<span>of VPN Expert are clear:</span>
+										</div>
+										<ul class="content-use__list">
+											<li class="content-use__item">
+												<div class="content-use__info">
+													<div class="content-use__icon">
+														<svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.6112 15C7.08915 15 6.55421 14.7938 6.15588 14.3955L0.608089 8.84767C-0.202696 8.03689 -0.202696 6.73237 0.608089 5.93577C1.41887 5.12499 2.72339 5.12499 3.51998 5.93577L7.61252 10.0283L17.0327 0.608089C17.8435 -0.202696 19.148 -0.202696 19.9446 0.608089C20.7413 1.41887 20.7554 2.72339 19.9446 3.51998L9.06916 14.3955C8.67086 14.7938 8.13592 15 7.61384 15H7.6112Z" fill="#01B9E1" />
+														</svg>
+													</div>
+													<p class="content-use__text">
+														<span>Does not contain </span>
+														<span>advertising</span>
+													</p>
+												</div>
+											</li>
+											<li class="content-use__item">
+												<div class="content-use__info">
+													<div class="content-use__icon">
+														<svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.6112 15C7.08915 15 6.55421 14.7938 6.15588 14.3955L0.608089 8.84767C-0.202696 8.03689 -0.202696 6.73237 0.608089 5.93577C1.41887 5.12499 2.72339 5.12499 3.51998 5.93577L7.61252 10.0283L17.0327 0.608089C17.8435 -0.202696 19.148 -0.202696 19.9446 0.608089C20.7413 1.41887 20.7554 2.72339 19.9446 3.51998L9.06916 14.3955C8.67086 14.7938 8.13592 15 7.61384 15H7.6112Z" fill="#01B9E1" />
+														</svg>
+													</div>
+													<p class="content-use__text">
+														<span>Does not track your </span>
+														<span>online activity</span>
+													</p>
+												</div>
+											</li>
+											<li class="content-use__item">
+												<div class="content-use__info">
+													<div class="content-use__icon">
+														<svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.6112 15C7.08915 15 6.55421 14.7938 6.15588 14.3955L0.608089 8.84767C-0.202696 8.03689 -0.202696 6.73237 0.608089 5.93577C1.41887 5.12499 2.72339 5.12499 3.51998 5.93577L7.61252 10.0283L17.0327 0.608089C17.8435 -0.202696 19.148 -0.202696 19.9446 0.608089C20.7413 1.41887 20.7554 2.72339 19.9446 3.51998L9.06916 14.3955C8.67086 14.7938 8.13592 15 7.61384 15H7.6112Z" fill="#01B9E1" />
+														</svg>
+													</div>
+													<p class="content-use__text">
+														<span>No speed or</span>
+														<span>traffic limits</span>
+													</p>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="content-use__row">
+										<div class="content-use__items">
+											<div class="content-use__label">
+												<span>
+													<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M19.0015 14.8903C18.9697 11.353 21.894 9.63202 22.0277 9.5519C20.3715 7.13402 17.8046 6.80366 16.9025 6.77732C14.7465 6.55013 12.6553 8.06913 11.557 8.06913C10.4368 8.06913 8.7456 6.79927 6.92284 6.83659C4.57727 6.8728 2.38295 8.23266 1.17947 10.3443C-1.30421 14.65 0.548137 20.9773 2.92769 24.4576C4.11802 26.1632 5.50892 28.0652 7.32948 27.9983C9.11058 27.9258 9.7759 26.8623 11.9253 26.8623C14.0549 26.8623 14.6797 27.9983 16.5364 27.9555C18.4479 27.9258 19.6514 26.2433 20.8001 24.5235C22.1757 22.5709 22.7281 20.6459 22.75 20.5471C22.7062 20.5317 19.0387 19.1291 19.0015 14.8903ZM15.4941 4.48785C16.452 3.28823 17.1075 1.65619 16.9255 0C15.539 0.0614623 13.805 0.960349 12.8065 2.13362C11.9231 3.1675 11.1339 4.86211 11.3378 6.45574C12.8953 6.57208 14.4944 5.6688 15.4941 4.48785Z" fill="white" />
+													</svg>
+												</span>
+												<p>iPadOS</p>
+											</div>
+											<div class="content-use__img">
+												<div class="content-use__pictures">
+													<picture><source data-srcset="img/pictures/iPad.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/iPad.png?_v=1730112948985" alt="pictures"></picture>
+												</div>
+											</div>
+										</div>
+										<div class="content-use__items">
+											<div class="content-use__label">
+												<span>
+													<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M19.0015 14.8903C18.9697 11.353 21.894 9.63202 22.0277 9.5519C20.3715 7.13402 17.8046 6.80366 16.9025 6.77732C14.7465 6.55013 12.6553 8.06913 11.557 8.06913C10.4368 8.06913 8.7456 6.79927 6.92284 6.83659C4.57727 6.8728 2.38295 8.23266 1.17947 10.3443C-1.30421 14.65 0.548137 20.9773 2.92769 24.4576C4.11802 26.1632 5.50892 28.0652 7.32948 27.9983C9.11058 27.9258 9.7759 26.8623 11.9253 26.8623C14.0549 26.8623 14.6797 27.9983 16.5364 27.9555C18.4479 27.9258 19.6514 26.2433 20.8001 24.5235C22.1757 22.5709 22.7281 20.6459 22.75 20.5471C22.7062 20.5317 19.0387 19.1291 19.0015 14.8903ZM15.4941 4.48785C16.452 3.28823 17.1075 1.65619 16.9255 0C15.539 0.0614623 13.805 0.960349 12.8065 2.13362C11.9231 3.1675 11.1339 4.86211 11.3378 6.45574C12.8953 6.57208 14.4944 5.6688 15.4941 4.48785Z" fill="white" />
+													</svg>
+												</span>
+												<p>Mac OS</p>
+											</div>
+											<div class="content-use__img">
+												<div class="content-use__pictures">
+													<picture><source data-srcset="img/pictures/mac.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/mac.png?_v=1730112948985" alt="pictures"></picture>
+												</div>
+											</div>
+										</div>
+										<div class="content-use__items">
+											<div class="content-use__label">
+												<span>
+													<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M19.0015 14.8903C18.9697 11.353 21.894 9.63202 22.0277 9.5519C20.3715 7.13402 17.8046 6.80366 16.9025 6.77732C14.7465 6.55013 12.6553 8.06913 11.557 8.06913C10.4368 8.06913 8.7456 6.79927 6.92284 6.83659C4.57727 6.8728 2.38295 8.23266 1.17947 10.3443C-1.30421 14.65 0.548137 20.9773 2.92769 24.4576C4.11802 26.1632 5.50892 28.0652 7.32948 27.9983C9.11058 27.9258 9.7759 26.8623 11.9253 26.8623C14.0549 26.8623 14.6797 27.9983 16.5364 27.9555C18.4479 27.9258 19.6514 26.2433 20.8001 24.5235C22.1757 22.5709 22.7281 20.6459 22.75 20.5471C22.7062 20.5317 19.0387 19.1291 19.0015 14.8903ZM15.4941 4.48785C16.452 3.28823 17.1075 1.65619 16.9255 0C15.539 0.0614623 13.805 0.960349 12.8065 2.13362C11.9231 3.1675 11.1339 4.86211 11.3378 6.45574C12.8953 6.57208 14.4944 5.6688 15.4941 4.48785Z" fill="white" />
+													</svg>
+												</span>
+												<p>iOS</p>
+											</div>
+											<div class="content-use__img">
+												<div class="content-use__pictures">
+													<picture><source data-srcset="img/pictures/iPhone.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/iPhone.png?_v=1730112948985" alt="pictures"></picture>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section section-support">
+				<div class="section-support__container">
+					<div class="section-support__inner">
+						<div class="section-support__content content-support">
+							<div class="content-support__box">
+								<div class="content-support__info">
+									<div class="value">
+										<div class="value__box">
+											<div class="value__icon">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M9.99999 1.81798C5.87995 1.81798 2.72735 4.76527 2.72735 8.18209V10.4543C2.72735 11.2077 2.11625 11.818 1.36367 11.818C0.61025 11.818 0 11.2077 0 10.4543V7.72695C0 7.05449 0.486668 6.49624 1.12674 6.38374C2.04381 2.67106 5.7436 0 10 0C14.2564 0 17.9562 2.67106 18.8733 6.38374C19.5133 6.49624 20 7.05449 20 7.72695V10.4543C20 11.0645 19.6003 11.581 19.048 11.7549C18.7557 14.6049 16.9999 17.0213 14.5453 18.241V18.1822C14.5453 17.5429 14.3808 16.9429 14.0918 16.4213C15.9933 15.321 17.2726 13.2644 17.2726 10.9095V8.1821C17.2726 4.76528 14.12 1.81798 9.99999 1.81798Z" fill="#919191" />
+													<path d="M12.7281 18.1812C12.7281 17.1772 11.9142 16.3633 10.9102 16.3633H9.09138C8.08737 16.3633 7.27344 17.1772 7.27344 18.1812C7.27344 19.1852 8.08739 19.9992 9.09138 19.9992H10.9102C11.9142 19.9992 12.7281 19.1852 12.7281 18.1812Z" fill="#919191" />
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M10.0008 2.72656C6.48603 2.72656 3.63672 5.57588 3.63672 9.08979C3.63672 12.6046 6.48603 15.4539 10.0008 15.4539C13.5156 15.4539 16.3649 12.6046 16.3649 9.08979C16.3649 5.57588 13.5156 2.72656 10.0008 2.72656ZM7.2198 10.249C7.58374 9.903 8.15903 9.91834 8.50506 10.2823C8.86387 10.6607 9.39485 10.9087 10.0008 10.9087C10.6068 10.9087 11.1378 10.6607 11.4966 10.2823C11.8427 9.91833 12.418 9.90299 12.7819 10.249C13.1467 10.5942 13.1612 11.1704 12.816 11.5343C12.1154 12.2724 11.108 12.7266 10.0009 12.7266C8.89386 12.7266 7.88637 12.2724 7.18586 11.5343C6.84069 11.1703 6.85502 10.5942 7.2198 10.249Z" fill="#919191" />
+												</svg>
+											</div>
+											<p class="value__text">Support</p>
+										</div>
+										<div class="value__el">
+											<svg width="144" height="39" viewBox="0 0 144 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="0.5" y="0.5" width="143" height="38" rx="19" fill="url(#paint0_linear_4050_473)" />
+												<rect x="0.5" y="0.5" width="143" height="38" rx="19" stroke="url(#paint1_linear_4050_473)" />
+												<defs>
+													<linearGradient id="paint0_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#919191" stop-opacity="0.1" />
+														<stop offset="1" stop-color="#919191" stop-opacity="0" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#919191" />
+														<stop offset="1" stop-color="#919191" stop-opacity="0" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+									<h2 class="title">
+										<span>Tech support</span>
+										<span>is always</span>
+										<span>in touch!</span>
+									</h2>
+									<p class="content-support__text">Know that there are real people on the other side of the screen ready to help. Our support team is available 24/7 and will always answer your questions.</p>
+								</div>
+							</div>
+						</div>
+						<div class="section-support__img">
+							<div class="section-support__pictures">
+								<div class="section-support__big-image">
+									<picture><source data-srcset="img/pictures/picHand.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/picHand.png?_v=1730112948985" alt="pictures"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="reviews" class="section section-reviews">
+				<div class="section-reviews__container">
+					<div class="section-reviews__inner">
+						<div class="section-reviews__top">
+							<div class="value">
+								<div class="value__box">
+									<div class="value__icon">
+										<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15.0441 0.5H2.95573C1.48906 0.5 0.289062 1.7 0.289062 3.16667V10.2775C0.289062 11.6108 1.26656 12.6775 2.51157 12.9L2.51074 15.6108C2.51074 15.9667 2.73324 16.2775 3.04407 16.4108C3.13324 16.4558 3.26658 16.5 3.39991 16.5C3.62242 16.5 3.84407 16.4108 3.9774 16.2775L7.71074 12.9442H15.0441C16.5107 12.9442 17.7107 11.7442 17.7107 10.2775V3.16666C17.7107 1.69999 16.5107 0.5 15.0441 0.5Z" fill="#919191" />
+										</svg>
+									</div>
+									<p class="value__text">Reviews</p>
+								</div>
+								<div class="value__el">
+									<svg width="144" height="39" viewBox="0 0 144 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="0.5" y="0.5" width="143" height="38" rx="19" fill="url(#paint0_linear_4050_473)" />
+										<rect x="0.5" y="0.5" width="143" height="38" rx="19" stroke="url(#paint1_linear_4050_473)" />
+										<defs>
+											<linearGradient id="paint0_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#919191" stop-opacity="0.1" />
+												<stop offset="1" stop-color="#919191" stop-opacity="0" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_4050_473" x1="72" y1="0" x2="72" y2="39" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#919191" />
+												<stop offset="1" stop-color="#919191" stop-opacity="0" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<h2 class="title">
+								<span>We are trusted</span>
+								<span>by thousands of users</span>
+							</h2>
+						</div>
+						<div class="section-reviews__row">
+							<div class="section-reviews__items">
+								<div class="section-reviews__box">
+									<div class="section-reviews__value">@pyrreigh</div>
+									<p class="section-reviews__text">Stable, fast and free of charge. Been using the app for about a year, not a single bug!</p>
+								</div>
+								<div class="section-reviews-el">
+									<svg width="458" height="224" viewBox="0 0 458 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="2" y="2" width="454" height="220" rx="30" fill="url(#paint0_linear_3948_2700)" />
+										<rect x="1" y="1" width="456" height="222" rx="31" stroke="url(#paint1_linear_3948_2700)" stroke-opacity="0.3" stroke-width="2" />
+										<mask id="mask0_3948_2700" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="454" height="220">
+											<rect x="2" y="2" width="454" height="220" rx="30" fill="#D9D9D9" />
+										</mask>
+										<g mask="url(#mask0_3948_2700)">
+											<g filter="url(#filter0_f_3948_2700)">
+												<circle cx="70.5" cy="-19.5" r="68.5" fill="#01B9E1" />
+											</g>
+										</g>
+										<defs>
+											<filter id="filter0_f_3948_2700" x="-198" y="-288" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_2700" />
+											</filter>
+											<linearGradient id="paint0_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#161320" />
+												<stop offset="1" stop-color="#0F0D16" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="section-reviews__items">
+								<div class="section-reviews__box">
+									<div class="section-reviews__value">@dennur</div>
+									<p class="section-reviews__text">Just top, no speed drops, no extra information, simple! </p>
+								</div>
+								<div class="section-reviews-el">
+									<svg width="458" height="224" viewBox="0 0 458 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="2" y="2" width="454" height="220" rx="30" fill="url(#paint0_linear_3948_2700)" />
+										<rect x="1" y="1" width="456" height="222" rx="31" stroke="url(#paint1_linear_3948_2700)" stroke-opacity="0.3" stroke-width="2" />
+										<mask id="mask0_3948_2700" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="454" height="220">
+											<rect x="2" y="2" width="454" height="220" rx="30" fill="#D9D9D9" />
+										</mask>
+										<g mask="url(#mask0_3948_2700)">
+											<g filter="url(#filter0_f_3948_2700)">
+												<circle cx="70.5" cy="-19.5" r="68.5" fill="#01B9E1" />
+											</g>
+										</g>
+										<defs>
+											<filter id="filter0_f_3948_2700" x="-198" y="-288" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_2700" />
+											</filter>
+											<linearGradient id="paint0_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#161320" />
+												<stop offset="1" stop-color="#0F0D16" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="section-reviews__items">
+								<div class="section-reviews__box">
+									<div class="section-reviews__value">@teganniani</div>
+									<p class="section-reviews__text">My third vpn, and I think that's where I'm gonna stay. 3 months flying, not a single drop in all that time!</p>
+								</div>
+								<div class="section-reviews-el">
+									<svg width="458" height="224" viewBox="0 0 458 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="2" y="2" width="454" height="220" rx="30" fill="url(#paint0_linear_3948_2700)" />
+										<rect x="1" y="1" width="456" height="222" rx="31" stroke="url(#paint1_linear_3948_2700)" stroke-opacity="0.3" stroke-width="2" />
+										<mask id="mask0_3948_2700" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="454" height="220">
+											<rect x="2" y="2" width="454" height="220" rx="30" fill="#D9D9D9" />
+										</mask>
+										<g mask="url(#mask0_3948_2700)">
+											<g filter="url(#filter0_f_3948_2700)">
+												<circle cx="70.5" cy="-19.5" r="68.5" fill="#01B9E1" />
+											</g>
+										</g>
+										<defs>
+											<filter id="filter0_f_3948_2700" x="-198" y="-288" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_2700" />
+											</filter>
+											<linearGradient id="paint0_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#161320" />
+												<stop offset="1" stop-color="#0F0D16" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="section-reviews__items">
+								<div class="section-reviews__box">
+									<div class="section-reviews__value">@janairet</div>
+									<p class="section-reviews__text">Couldn't connect, but tech support is just love))))) Quickly solved my problem!</p>
+								</div>
+								<div class="section-reviews-el">
+									<svg width="458" height="224" viewBox="0 0 458 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="2" y="2" width="454" height="220" rx="30" fill="url(#paint0_linear_3948_2700)" />
+										<rect x="1" y="1" width="456" height="222" rx="31" stroke="url(#paint1_linear_3948_2700)" stroke-opacity="0.3" stroke-width="2" />
+										<mask id="mask0_3948_2700" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="454" height="220">
+											<rect x="2" y="2" width="454" height="220" rx="30" fill="#D9D9D9" />
+										</mask>
+										<g mask="url(#mask0_3948_2700)">
+											<g filter="url(#filter0_f_3948_2700)">
+												<circle cx="70.5" cy="-19.5" r="68.5" fill="#01B9E1" />
+											</g>
+										</g>
+										<defs>
+											<filter id="filter0_f_3948_2700" x="-198" y="-288" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_2700" />
+											</filter>
+											<linearGradient id="paint0_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#161320" />
+												<stop offset="1" stop-color="#0F0D16" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="section-reviews__items">
+								<div class="section-reviews__box">
+									<div class="section-reviews__value">@Nathilv-07</div>
+									<p class="section-reviews__text">Watching YouTube, the speed doesn't drop, picture quality🔥 </p>
+								</div>
+								<div class="section-reviews-el">
+									<svg width="458" height="224" viewBox="0 0 458 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="2" y="2" width="454" height="220" rx="30" fill="url(#paint0_linear_3948_2700)" />
+										<rect x="1" y="1" width="456" height="222" rx="31" stroke="url(#paint1_linear_3948_2700)" stroke-opacity="0.3" stroke-width="2" />
+										<mask id="mask0_3948_2700" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="454" height="220">
+											<rect x="2" y="2" width="454" height="220" rx="30" fill="#D9D9D9" />
+										</mask>
+										<g mask="url(#mask0_3948_2700)">
+											<g filter="url(#filter0_f_3948_2700)">
+												<circle cx="70.5" cy="-19.5" r="68.5" fill="#01B9E1" />
+											</g>
+										</g>
+										<defs>
+											<filter id="filter0_f_3948_2700" x="-198" y="-288" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_2700" />
+											</filter>
+											<linearGradient id="paint0_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#161320" />
+												<stop offset="1" stop-color="#0F0D16" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="section-reviews__items">
+								<div class="section-reviews__box">
+									<div class="section-reviews__value">@Kylore</div>
+									<p class="section-reviews__text">Installed on Mac and iPhone, everything works clearly, didn't even notice the speed slowdown!</p>
+								</div>
+								<div class="section-reviews-el">
+									<svg width="458" height="224" viewBox="0 0 458 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="2" y="2" width="454" height="220" rx="30" fill="url(#paint0_linear_3948_2700)" />
+										<rect x="1" y="1" width="456" height="222" rx="31" stroke="url(#paint1_linear_3948_2700)" stroke-opacity="0.3" stroke-width="2" />
+										<mask id="mask0_3948_2700" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="454" height="220">
+											<rect x="2" y="2" width="454" height="220" rx="30" fill="#D9D9D9" />
+										</mask>
+										<g mask="url(#mask0_3948_2700)">
+											<g filter="url(#filter0_f_3948_2700)">
+												<circle cx="70.5" cy="-19.5" r="68.5" fill="#01B9E1" />
+											</g>
+										</g>
+										<defs>
+											<filter id="filter0_f_3948_2700" x="-198" y="-288" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_2700" />
+											</filter>
+											<linearGradient id="paint0_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#161320" />
+												<stop offset="1" stop-color="#0F0D16" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_2700" x1="229" y1="2" x2="229" y2="222" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="section-reviews__slider">
+							<div class="section-reviews__swiper">
+								<div class="section-reviews__slide">
+									<div class="section-reviews__items">
+										<div class="section-reviews__box">
+											<div class="section-reviews__value">@pyrreigh</div>
+											<p class="section-reviews__text">Stable, fast and free of charge. Been using the app for about a year, not a single bug!</p>
+										</div>
+										<div class="section-reviews-elMob">
+											<svg width="304" height="205" viewBox="0 0 304 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="url(#paint0_linear_3948_3556)" />
+												<rect x="1" y="1.25586" width="302" height="202" rx="31" stroke="url(#paint1_linear_3948_3556)" stroke-opacity="0.3" stroke-width="2" />
+												<mask id="mask0_3948_3556" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="300" height="201">
+													<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="#D9D9D9" />
+												</mask>
+												<g mask="url(#mask0_3948_3556)">
+													<g filter="url(#filter0_f_3948_3556)">
+														<circle cx="70.5" cy="-19.2441" r="68.5" fill="#01B9E1" />
+													</g>
+												</g>
+												<defs>
+													<filter id="filter0_f_3948_3556" x="-198" y="-287.744" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+														<feFlood flood-opacity="0" result="BackgroundImageFix" />
+														<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+														<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_3556" />
+													</filter>
+													<linearGradient id="paint0_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#161320" />
+														<stop offset="1" stop-color="#0F0D16" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="section-reviews__slide">
+									<div class="section-reviews__items">
+										<div class="section-reviews__box">
+											<div class="section-reviews__value">@dennur</div>
+											<p class="section-reviews__text">Just top, no speed drops, no extra information, simple! </p>
+										</div>
+										<div class="section-reviews-elMob">
+											<svg width="304" height="205" viewBox="0 0 304 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="url(#paint0_linear_3948_3556)" />
+												<rect x="1" y="1.25586" width="302" height="202" rx="31" stroke="url(#paint1_linear_3948_3556)" stroke-opacity="0.3" stroke-width="2" />
+												<mask id="mask0_3948_3556" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="300" height="201">
+													<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="#D9D9D9" />
+												</mask>
+												<g mask="url(#mask0_3948_3556)">
+													<g filter="url(#filter0_f_3948_3556)">
+														<circle cx="70.5" cy="-19.2441" r="68.5" fill="#01B9E1" />
+													</g>
+												</g>
+												<defs>
+													<filter id="filter0_f_3948_3556" x="-198" y="-287.744" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+														<feFlood flood-opacity="0" result="BackgroundImageFix" />
+														<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+														<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_3556" />
+													</filter>
+													<linearGradient id="paint0_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#161320" />
+														<stop offset="1" stop-color="#0F0D16" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="section-reviews__slide">
+									<div class="section-reviews__items">
+										<div class="section-reviews__box">
+											<div class="section-reviews__value">@teganniani</div>
+											<p class="section-reviews__text">My third vpn, and I think that's where I'm gonna stay. 3 months flying, not a single drop in all that time!</p>
+										</div>
+										<div class="section-reviews-elMob">
+											<svg width="304" height="205" viewBox="0 0 304 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="url(#paint0_linear_3948_3556)" />
+												<rect x="1" y="1.25586" width="302" height="202" rx="31" stroke="url(#paint1_linear_3948_3556)" stroke-opacity="0.3" stroke-width="2" />
+												<mask id="mask0_3948_3556" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="300" height="201">
+													<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="#D9D9D9" />
+												</mask>
+												<g mask="url(#mask0_3948_3556)">
+													<g filter="url(#filter0_f_3948_3556)">
+														<circle cx="70.5" cy="-19.2441" r="68.5" fill="#01B9E1" />
+													</g>
+												</g>
+												<defs>
+													<filter id="filter0_f_3948_3556" x="-198" y="-287.744" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+														<feFlood flood-opacity="0" result="BackgroundImageFix" />
+														<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+														<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_3556" />
+													</filter>
+													<linearGradient id="paint0_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#161320" />
+														<stop offset="1" stop-color="#0F0D16" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="section-reviews__slide">
+									<div class="section-reviews__items">
+										<div class="section-reviews__box">
+											<div class="section-reviews__value">@janairet</div>
+											<p class="section-reviews__text">Couldn't connect, but tech support is just love))))) Quickly solved my problem!</p>
+										</div>
+										<div class="section-reviews-elMob">
+											<svg width="304" height="205" viewBox="0 0 304 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="url(#paint0_linear_3948_3556)" />
+												<rect x="1" y="1.25586" width="302" height="202" rx="31" stroke="url(#paint1_linear_3948_3556)" stroke-opacity="0.3" stroke-width="2" />
+												<mask id="mask0_3948_3556" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="300" height="201">
+													<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="#D9D9D9" />
+												</mask>
+												<g mask="url(#mask0_3948_3556)">
+													<g filter="url(#filter0_f_3948_3556)">
+														<circle cx="70.5" cy="-19.2441" r="68.5" fill="#01B9E1" />
+													</g>
+												</g>
+												<defs>
+													<filter id="filter0_f_3948_3556" x="-198" y="-287.744" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+														<feFlood flood-opacity="0" result="BackgroundImageFix" />
+														<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+														<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_3556" />
+													</filter>
+													<linearGradient id="paint0_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#161320" />
+														<stop offset="1" stop-color="#0F0D16" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="section-reviews__slide">
+									<div class="section-reviews__items">
+										<div class="section-reviews__box">
+											<div class="section-reviews__value">@Nathilv-07</div>
+											<p class="section-reviews__text">Watching YouTube, the speed doesn't drop, picture quality🔥 </p>
+										</div>
+										<div class="section-reviews-elMob">
+											<svg width="304" height="205" viewBox="0 0 304 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="url(#paint0_linear_3948_3556)" />
+												<rect x="1" y="1.25586" width="302" height="202" rx="31" stroke="url(#paint1_linear_3948_3556)" stroke-opacity="0.3" stroke-width="2" />
+												<mask id="mask0_3948_3556" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="300" height="201">
+													<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="#D9D9D9" />
+												</mask>
+												<g mask="url(#mask0_3948_3556)">
+													<g filter="url(#filter0_f_3948_3556)">
+														<circle cx="70.5" cy="-19.2441" r="68.5" fill="#01B9E1" />
+													</g>
+												</g>
+												<defs>
+													<filter id="filter0_f_3948_3556" x="-198" y="-287.744" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+														<feFlood flood-opacity="0" result="BackgroundImageFix" />
+														<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+														<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_3556" />
+													</filter>
+													<linearGradient id="paint0_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#161320" />
+														<stop offset="1" stop-color="#0F0D16" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="section-reviews__slide">
+									<div class="section-reviews__items">
+										<div class="section-reviews__box">
+											<div class="section-reviews__value">@Kylore</div>
+											<p class="section-reviews__text">Installed on Mac and iPhone, everything works clearly, didn't even notice the speed slowdown!</p>
+										</div>
+										<div class="section-reviews-elMob">
+											<svg width="304" height="205" viewBox="0 0 304 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="url(#paint0_linear_3948_3556)" />
+												<rect x="1" y="1.25586" width="302" height="202" rx="31" stroke="url(#paint1_linear_3948_3556)" stroke-opacity="0.3" stroke-width="2" />
+												<mask id="mask0_3948_3556" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="300" height="201">
+													<rect x="2" y="2.25586" width="300" height="200" rx="30" fill="#D9D9D9" />
+												</mask>
+												<g mask="url(#mask0_3948_3556)">
+													<g filter="url(#filter0_f_3948_3556)">
+														<circle cx="70.5" cy="-19.2441" r="68.5" fill="#01B9E1" />
+													</g>
+												</g>
+												<defs>
+													<filter id="filter0_f_3948_3556" x="-198" y="-287.744" width="537" height="537" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+														<feFlood flood-opacity="0" result="BackgroundImageFix" />
+														<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+														<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_3948_3556" />
+													</filter>
+													<linearGradient id="paint0_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#161320" />
+														<stop offset="1" stop-color="#0F0D16" />
+													</linearGradient>
+													<linearGradient id="paint1_linear_3948_3556" x1="152" y1="2.25586" x2="152" y2="202.256" gradientUnits="userSpaceOnUse">
+														<stop stop-color="#78E7FF" />
+														<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+													</linearGradient>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="section-reviews__pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="choose" class="section section-choose">
+				<div class="section-choose__container">
+					<div class="section-choose__inner">
+						<div class="section-choose__decor decor-choose">
+							<div class="decor-choose__img">
+								<div class="decor-choose__pictures">
+									<picture><source data-srcset="img/pictures/chooseBg.webp" srcset="img/1x1.webp" type="image/webp"><img  src="img/1x1.png?_v=1730112948985" data-src="img/pictures/chooseBg.png?_v=1730112948985" alt="pictures"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="section-choose__content">
+							<div class="section-choose__info">
+								<div class="value">
+									<div class="value__box">
+										<div class="value__icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99999 1.81798C5.87995 1.81798 2.72735 4.76527 2.72735 8.18209V10.4543C2.72735 11.2077 2.11625 11.818 1.36367 11.818C0.61025 11.818 0 11.2077 0 10.4543V7.72695C0 7.05449 0.486668 6.49624 1.12674 6.38374C2.04381 2.67106 5.7436 0 10 0C14.2564 0 17.9562 2.67106 18.8733 6.38374C19.5133 6.49624 20 7.05449 20 7.72695V10.4543C20 11.0645 19.6003 11.581 19.048 11.7549C18.7557 14.6049 16.9999 17.0213 14.5453 18.241V18.1822C14.5453 17.5429 14.3808 16.9429 14.0918 16.4213C15.9933 15.321 17.2726 13.2644 17.2726 10.9095V8.1821C17.2726 4.76528 14.12 1.81798 9.99999 1.81798Z" fill="#01B9E1" />
+												<path d="M12.7281 18.1812C12.7281 17.1772 11.9142 16.3633 10.9102 16.3633H9.09138C8.08737 16.3633 7.27344 17.1772 7.27344 18.1812C7.27344 19.1852 8.08739 19.9992 9.09138 19.9992H10.9102C11.9142 19.9992 12.7281 19.1852 12.7281 18.1812Z" fill="#01B9E1" />
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M10.0008 2.72656C6.48603 2.72656 3.63672 5.57588 3.63672 9.08979C3.63672 12.6046 6.48603 15.4539 10.0008 15.4539C13.5156 15.4539 16.3649 12.6046 16.3649 9.08979C16.3649 5.57588 13.5156 2.72656 10.0008 2.72656ZM7.2198 10.249C7.58374 9.903 8.15903 9.91834 8.50506 10.2823C8.86387 10.6607 9.39485 10.9087 10.0008 10.9087C10.6068 10.9087 11.1378 10.6607 11.4966 10.2823C11.8427 9.91833 12.418 9.90299 12.7819 10.249C13.1467 10.5942 13.1612 11.1704 12.816 11.5343C12.1154 12.2724 11.108 12.7266 10.0009 12.7266C8.89386 12.7266 7.88637 12.2724 7.18586 11.5343C6.84069 11.1703 6.85502 10.5942 7.2198 10.249Z" fill="#01B9E1" />
+											</svg>
+										</div>
+										<p class="value__text">Download</p>
+									</div>
+									<div class="value__el">
+										<svg width="140" height="39" viewBox="0 0 140 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="0.5" y="0.5" width="139" height="38" rx="19" fill="url(#paint0_linear_4050_479)" />
+											<rect x="0.5" y="0.5" width="139" height="38" rx="19" stroke="url(#paint1_linear_4050_479)" />
+											<defs>
+												<linearGradient id="paint0_linear_4050_479" x1="70" y1="0" x2="70" y2="39" gradientUnits="userSpaceOnUse">
+													<stop stop-color="white" stop-opacity="0.2" />
+													<stop offset="1" stop-color="white" stop-opacity="0" />
+												</linearGradient>
+												<linearGradient id="paint1_linear_4050_479" x1="70" y1="0" x2="70" y2="39" gradientUnits="userSpaceOnUse">
+													<stop stop-color="white" />
+													<stop offset="1" stop-color="white" stop-opacity="0" />
+												</linearGradient>
+											</defs>
+										</svg>
+									</div>
+								</div>
+								<h2 class="title">
+									Choose VPN Expert
+								</h2>
+								<p class="section-choose__text">
+									<span>Reliability and security</span>
+									<span>in a world where it matters</span>
+								</p>
+							</div>
+							<a href="#" class="download">
+								<div class="download__icon">
+									<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M19.0015 14.8903C18.9697 11.353 21.894 9.63202 22.0277 9.5519C20.3715 7.13402 17.8046 6.80366 16.9025 6.77732C14.7465 6.55013 12.6553 8.06913 11.557 8.06913C10.4368 8.06913 8.7456 6.79927 6.92284 6.83659C4.57727 6.8728 2.38295 8.23266 1.17947 10.3443C-1.30421 14.65 0.548137 20.9773 2.92769 24.4576C4.11802 26.1632 5.50892 28.0652 7.32948 27.9983C9.11058 27.9258 9.7759 26.8623 11.9253 26.8623C14.0549 26.8623 14.6797 27.9983 16.5364 27.9555C18.4479 27.9258 19.6514 26.2433 20.8001 24.5235C22.1757 22.5709 22.7281 20.6459 22.75 20.5471C22.7062 20.5317 19.0387 19.1291 19.0015 14.8903ZM15.4941 4.48785C16.452 3.28823 17.1075 1.65619 16.9255 0C15.539 0.0614623 13.805 0.960349 12.8065 2.13362C11.9231 3.1675 11.1339 4.86211 11.3378 6.45574C12.8953 6.57208 14.4944 5.6688 15.4941 4.48785Z" fill="white" />
+									</svg>
+								</div>
+								<p class="download__text">Download App </p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<header class="header">
+				<div class="header__container">
+					<div class="header__inner">
+						<a href="#!" class="logo">
+							<div class="logo__icon">
+								<svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16.1186 2.21684L16.1186 2.21687L30.7836 7.13853C30.9126 7.18184 30.9997 7.30284 30.9997 7.43922V19.7375C30.9997 28.3316 25.0536 35.9805 16.1106 38.7168C16.0803 38.726 16.0491 38.7306 16.018 38.7306C15.987 38.7306 15.9558 38.726 15.9253 38.7167C6.98236 35.9804 1.03633 28.3316 1.03633 19.7375V7.00459C1.03633 6.86494 1.12746 6.74199 1.26044 6.70127C1.26046 6.70127 1.26047 6.70126 1.26048 6.70126L15.9255 2.21428L15.9257 2.21421C15.9886 2.19494 16.056 2.19582 16.1186 2.21684Z" fill="#04AFD4" stroke="url(#paint0_linear_3885_3503)" stroke-width="1.6" />
+									<path d="M16.0968 1.52305L16.0969 1.52308L30.7461 6.53422C30.7461 6.53422 30.7461 6.53422 30.7461 6.53422C30.8693 6.57639 30.9657 6.70079 30.9657 6.85565V19.3775C30.9657 28.145 25.0156 35.9332 16.0891 38.7171C16.0601 38.7261 16.0305 38.7306 16.001 38.7306C15.9718 38.7306 15.9421 38.7262 15.913 38.7171C6.98647 35.9332 1.03633 28.145 1.03633 19.3775V6.41313C1.03633 6.25443 1.13721 6.12859 1.26371 6.08911C1.26372 6.0891 1.26374 6.0891 1.26375 6.0891L15.913 1.52053L15.9132 1.52046C15.9732 1.50175 16.037 1.50257 16.0968 1.52305Z" fill="#04AFD4" stroke="url(#paint1_linear_3885_3503)" stroke-width="1.6" />
+									<path d="M20.2885 9.55231C19.6961 8.9599 19.0056 8.50215 18.2354 8.1874C17.4918 7.88596 16.7067 7.73252 15.9017 7.73209C15.0967 7.73166 14.3118 7.88425 13.5685 8.18488C12.7986 8.49549 12.1086 8.95582 11.5169 9.54759C10.9251 10.1394 10.4681 10.8293 10.1542 11.5992C9.85353 12.3425 9.70093 13.1274 9.70136 13.9324C9.70179 14.7374 9.85523 15.5225 10.1567 16.2661C10.4681 17.0363 10.9292 17.7268 11.5216 18.3192C12.2621 19.0597 13.1738 19.5991 14.1735 19.8907L14.1742 30.3871C14.1743 30.6299 14.3208 30.8528 14.5703 30.9528C14.6219 30.9744 14.6801 30.9827 14.7367 30.9828L17.0884 30.984C17.145 30.9841 17.2015 30.9741 17.2547 30.9542C17.5041 30.8545 17.6521 30.6334 17.6502 30.3889L17.6495 28.9353L19.7417 28.9364C19.7983 28.9364 19.8548 28.9265 19.908 28.9066C20.1575 28.8069 20.3054 28.5858 20.3036 28.3413L20.3023 26.0228C20.3023 25.9663 20.2923 25.9097 20.2723 25.8565C20.1724 25.607 19.9511 25.4588 19.7066 25.4604L17.6476 25.4593L17.6429 19.8959C18.6407 19.6071 19.5535 19.067 20.2932 18.3273C20.885 17.7355 21.342 17.0455 21.6559 16.2757C21.9565 15.5324 22.1091 14.7474 22.1087 13.9425C22.1083 13.1375 21.9548 12.3524 21.6534 11.6088C21.3387 10.8352 20.8809 10.1447 20.2885 9.55231ZM18.9803 13.9391C18.9807 14.7607 18.6601 15.5339 18.08 16.114C17.4999 16.6942 16.7266 17.0148 15.905 17.0143C15.0834 17.0139 14.3082 16.6941 13.7275 16.1134C13.145 15.5309 12.8253 14.759 12.8248 13.9374C12.8244 13.1158 13.145 12.3426 13.7251 11.7625C14.3053 11.1823 15.0785 10.8617 15.9001 10.8622C16.7217 10.8626 17.4952 11.184 18.076 11.7648C18.6601 12.3423 18.9815 13.1158 18.9803 13.9391Z" fill="white" />
+									<path d="M16.001 6.85565V0.707031C15.9481 0.707031 15.8423 0.707031 15.6748 0.756812L1.02553 5.32539C0.556604 5.47166 0.236328 5.91305 0.236328 6.41313V19.3775C0.236328 28.5221 6.44056 36.601 15.6748 39.4808C15.7811 39.514 15.8911 39.5306 16.001 39.5306C16.001 33.0828 16.001 28.5221 16.001 19.3775V6.85565Z" fill="white" fill-opacity="0.3" />
+									<defs>
+										<linearGradient id="paint0_linear_3885_3503" x1="16.018" y1="1.40039" x2="16.018" y2="39.5306" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#03F4FD" />
+											<stop offset="1" stop-color="#03D0FD" />
+										</linearGradient>
+										<linearGradient id="paint1_linear_3885_3503" x1="16.001" y1="0.707031" x2="16.001" y2="39.5306" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#03F4FD" />
+											<stop offset="1" stop-color="#03D0FD" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<p class="logo__text"><span>VPN EXPERT</span>Fast - Stable - Simple</p>
+						</a>
+						<ul class="header__list">
+							<li class="header__item"><a href="#features" class="header__link">Features</a></li>
+							<li class="header__item"><a href="#use" class="header__link">Compatibility</a></li>
+							<li class="header__item"><a href="#reviews" class="header__link">Reviews</a></li>
+							<li class="header__item"><a href="#choose" class="header__link">Download</a></li>
+						</ul>
+						<div class="header__actions">
+							<div class="lang">
+								<button class="lang__button">
+									<div class="lang__flag"></div>
+									<div class="lang__current"></div>
+									<div class="lang__arrow">
+										<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+										</svg>
+									</div>
+								</button>
+								<div class="lang__content">
+									<ul class="lang__list">
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2232)">
+															<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+															<path d="M2.0684 3.91211C1.28289 4.9341 0.690586 6.11203 0.345703 7.39168H5.54797L2.0684 3.91211Z" fill="#0052B4" />
+															<path d="M19.6573 7.39164C19.3124 6.11203 18.72 4.9341 17.9346 3.91211L14.4551 7.39164H19.6573Z" fill="#0052B4" />
+															<path d="M0.345703 12.6094C0.690625 13.889 1.28293 15.0669 2.0684 16.0889L5.54785 12.6094H0.345703Z" fill="#0052B4" />
+															<path d="M16.0889 2.06844C15.0669 1.28293 13.889 0.690625 12.6094 0.345703V5.54793L16.0889 2.06844Z" fill="#0052B4" />
+															<path d="M3.91211 17.9345C4.9341 18.72 6.11203 19.3123 7.39164 19.6573V14.4551L3.91211 17.9345Z" fill="#0052B4" />
+															<path d="M7.3916 0.345703C6.11199 0.690625 4.93406 1.28293 3.91211 2.0684L7.3916 5.54789V0.345703Z" fill="#0052B4" />
+															<path d="M12.6094 19.6573C13.889 19.3123 15.0669 18.72 16.0889 17.9346L12.6094 14.4551V19.6573Z" fill="#0052B4" />
+															<path d="M14.4551 12.6094L17.9346 16.0889C18.72 15.067 19.3124 13.889 19.6573 12.6094H14.4551Z" fill="#0052B4" />
+															<path d="M19.9154 8.69566H11.3044H11.3044V0.0846484C10.8774 0.0290625 10.4421 0 10 0C9.55785 0 9.12262 0.0290625 8.69566 0.0846484V8.69559V8.69563H0.0846484C0.0290625 9.12262 0 9.55793 0 10C0 10.4421 0.0290625 10.8774 0.0846484 11.3043H8.69559H8.69563V19.9154C9.12262 19.9709 9.55785 20 10 20C10.4421 20 10.8774 19.971 11.3043 19.9154V11.3044V11.3044H19.9154C19.9709 10.8774 20 10.4421 20 10C20 9.55793 19.9709 9.12262 19.9154 8.69566V8.69566Z" fill="#D80027" />
+															<path d="M12.6074 12.6075L17.0698 17.0698C17.275 16.8646 17.4708 16.6502 17.6576 16.4278L13.8372 12.6074H12.6074V12.6075Z" fill="#D80027" />
+															<path d="M7.39012 12.6074H7.39004L2.92773 17.0697C3.13289 17.275 3.34738 17.4707 3.56973 17.6575L7.39012 13.8371V12.6074Z" fill="#D80027" />
+															<path d="M7.39195 7.3902V7.39012L2.92961 2.92773C2.72438 3.13289 2.52859 3.34738 2.3418 3.56973L6.16223 7.39016H7.39195V7.3902Z" fill="#D80027" />
+															<path d="M12.6074 7.39199L17.0698 2.92957C16.8646 2.72434 16.6502 2.52855 16.4278 2.3418L12.6074 6.16223V7.39199Z" fill="#D80027" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2232">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">English</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2236)">
+															<path d="M0.621094 13.477C2.03402 17.2849 5.69945 19.9987 9.9991 19.9987C14.2987 19.9987 17.9642 17.2849 19.3771 13.477L9.9991 12.6074L0.621094 13.477Z" fill="#FFDA44" />
+															<path d="M9.9991 0C5.69945 0 2.03402 2.71375 0.621094 6.52176L9.9991 7.39129L19.3771 6.52172C17.9642 2.71375 14.2987 0 9.9991 0Z" fill="black" />
+															<path d="M0.621992 6.52148C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478H19.378C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992Z" fill="#D80027" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2236">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">Deutschland</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2240)">
+															<path d="M0 10.0002C0 11.2234 0.220039 12.3951 0.621992 13.4784L10 14.348L19.378 13.4784C19.78 12.3951 20 11.2234 20 10.0002C20 8.77695 19.78 7.60523 19.378 6.52191L10 5.65234L0.621992 6.52191C0.220039 7.60523 0 8.77695 0 10.0002H0Z" fill="#FFDA44" />
+															<path d="M19.3791 6.52176C17.9661 2.71379 14.3007 0 10.0011 0C5.70141 0 2.03598 2.71379 0.623047 6.52176H19.3791Z" fill="#D80027" />
+															<path d="M0.623047 13.4785C2.03598 17.2865 5.70141 20.0003 10.0011 20.0003C14.3007 20.0003 17.9661 17.2865 19.3791 13.4785H0.623047Z" fill="#D80027" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2240">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">España</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2244)">
+															<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+															<path d="M20.0003 9.9991C20.0003 5.69945 17.2865 2.03402 13.4785 0.621094V19.3772C17.2865 17.9642 20.0003 14.2988 20.0003 9.9991V9.9991Z" fill="#D80027" />
+															<path d="M0 9.9991C0 14.2987 2.71379 17.9642 6.52176 19.3771V0.621094C2.71379 2.03402 0 5.69945 0 9.9991Z" fill="#0052B4" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2244">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">France</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2248)">
+															<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+															<path d="M20 10C20 15.5228 15.5228 20 10 20C4.47719 20 0 15.5228 0 10" fill="#D80027" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2248">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">Polska</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2252)">
+															<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+															<path d="M19.378 13.478C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478L10 14.3475L19.378 13.478Z" fill="#0052B4" />
+															<path d="M9.9991 20.0003C14.2987 20.0003 17.9642 17.2865 19.3771 13.4785H0.621094C2.03402 17.2865 5.69945 20.0003 9.9991 20.0003Z" fill="#D80027" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2252">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">Русский</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2256)">
+															<path d="M0 9.9991C0 14.2987 2.71375 17.9641 6.52168 19.3771L7.39129 9.99906L6.52168 0.621094C2.71375 2.03406 0 5.69945 0 9.9991Z" fill="#6DA544" />
+															<path d="M19.9998 10C19.9998 4.47719 15.5226 0 9.99981 0C8.7766 0 7.60484 0.220039 6.52148 0.621992V19.378C7.60484 19.78 8.7766 20 9.99981 20C15.5226 20 19.9998 15.5228 19.9998 10Z" fill="#D80027" />
+															<path d="M6.52121 13.478C8.44219 13.478 9.99945 11.9207 9.99945 9.99973C9.99945 8.07875 8.44219 6.52148 6.52121 6.52148C4.60023 6.52148 3.04297 8.07875 3.04297 9.99973C3.04297 11.9207 4.60023 13.478 6.52121 13.478Z" fill="#FFDA44" />
+															<path d="M4.56445 8.25977V10.4337C4.56445 11.5142 5.44039 12.3902 6.52098 12.3902C7.60156 12.3902 8.4775 11.5143 8.4775 10.4337V8.25977H4.56445Z" fill="#D80027" />
+															<path d="M6.52328 11.0862C6.16367 11.0862 5.87109 10.7936 5.87109 10.434V9.56445H7.17543V10.434C7.17543 10.7936 6.88285 11.0862 6.52328 11.0862Z" fill="#F0F0F0" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2256">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">Portugal</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+										<li class="lang__item">
+											<div class="lang__box">
+												<div class="lang__icon">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_3885_2260)">
+															<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#D80027" />
+															<path d="M9.59141 8.16992L10.4119 9.30059L11.7407 8.86973L10.9189 9.99941L11.7393 11.13L10.411 10.6975L9.58922 11.8272L9.59008 10.4303L8.26172 9.99781L9.59055 9.56695L9.59141 8.16992Z" fill="#F0F0F0" />
+															<path d="M7.3523 12.8259C5.79152 12.8259 4.52621 11.5605 4.52621 9.99977C4.52621 8.43898 5.79152 7.17367 7.3523 7.17367C7.83895 7.17367 8.29684 7.29676 8.6966 7.51336C8.06945 6.9 7.21176 6.52148 6.26535 6.52148C4.34434 6.52148 2.78711 8.07875 2.78711 9.99973C2.78711 11.9207 4.34438 13.478 6.26535 13.478C7.21184 13.478 8.06949 13.0994 8.6966 12.4861C8.29684 12.7028 7.83895 12.8259 7.3523 12.8259V12.8259Z" fill="#F0F0F0" />
+														</g>
+														<defs>
+															<clipPath id="clip0_3885_2260">
+																<rect width="20" height="20" fill="white" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+												<div class="lang__text">Türkiye</div>
+											</div>
+											<div class="lang__el">
+												<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.95431 0 20 0H120C131.046 0 140 8.95431 140 20C140 31.0457 131.046 40 120 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_3145)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H120C130.77 0.5 139.5 9.23045 139.5 20C139.5 30.7696 130.77 39.5 120 39.5H20C9.23045 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_3145)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_3145" x1="70" y1="0" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="lang__btn-el">
+									<svg width="140" height="52" viewBox="0 0 140 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="140" height="52" rx="26" fill="url(#paint0_linear_3948_2389)" />
+										<rect x="0.5" y="0.5" width="139" height="51" rx="25.5" stroke="url(#paint1_linear_3948_2389)" stroke-opacity="0.3" />
+										<defs>
+											<linearGradient id="paint0_linear_3948_2389" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#161320" />
+												<stop offset="1" stop-color="#0F0D16" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_2389" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+								<div class="lang__btn-elAct">
+									<svg width="140" height="52" viewBox="0 0 140 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="140" height="52" rx="26" fill="url(#paint0_linear_3948_3201)" />
+										<rect x="0.5" y="0.5" width="139" height="51" rx="25.5" stroke="url(#paint1_linear_3948_3201)" stroke-opacity="0.3" />
+										<defs>
+											<linearGradient id="paint0_linear_3948_3201" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#2E2940" />
+												<stop offset="1" stop-color="#1F1B2C" />
+											</linearGradient>
+											<linearGradient id="paint1_linear_3948_3201" x1="70" y1="0" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#78E7FF" />
+												<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<a href="sing-in-email.html" class="sing">
+								<div class="sing__icon">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M19.2224 17.485C18.9569 18.7113 17.914 19.6214 16.6534 19.7274C14.7367 19.8846 12.4972 19.9992 9.99613 19.9992C7.49508 19.9992 5.25538 19.8856 3.33889 19.7274C2.07829 19.6214 1.0354 18.7113 0.769872 17.485C0.609431 16.7691 0.5273 16.0371 0.525391 15.3032V15.2549C0.539716 13.7843 1.68382 12.5664 3.1631 12.45C5.11896 12.2853 7.41953 12.1641 10.0086 12.1641C11.9205 12.1641 14.2354 12.2294 16.8321 12.45C18.3114 12.5684 19.4563 13.7853 19.4727 15.2578V15.3061C19.468 16.039 19.3847 16.77 19.2224 17.485Z" fill="#01B9E1" />
+										<path d="M15.0419 5.00386C15.0419 7.76701 12.7824 10.0077 9.99557 10.0077C7.20877 10.0077 4.94922 7.7672 4.94922 5.00386C4.94922 2.24053 7.20877 0 9.99557 0C12.7824 0 15.0419 2.24053 15.0419 5.00386Z" fill="#01B9E1" />
+									</svg>
+								</div>
+								<p class="sing__text">Sign In</p>
+							</a>
+							<button class="burger">
+								<span class="el"></span>
+								<span class="el"></span>
+								<span class="icon">
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17.5113 15.1519C17.8242 15.4648 18 15.8891 18 16.3316C18 16.7741 17.8242 17.1985 17.5113 17.5113C17.1985 17.8242 16.7741 18 16.3316 18C15.8891 18 15.4648 17.8242 15.1519 17.5113L9.2696 11.6291C9.1981 11.5576 9.10112 11.5174 9 11.5174C8.89888 11.5174 8.8019 11.5576 8.7304 11.6291L2.84811 17.5113C2.53523 17.8242 2.11087 18 1.66839 18C1.2259 18 0.801542 17.8242 0.488659 17.5113C0.175776 17.1985 0 16.7741 0 16.3316C0 15.8891 0.175776 15.4648 0.488659 15.1519L6.37094 9.2698C6.44246 9.19826 6.48263 9.10125 6.48263 9.0001C6.48263 8.89894 6.44246 8.80193 6.37094 8.7304L0.488659 2.84811C0.175776 2.53523 0 2.11087 0 1.66839C0 1.2259 0.175776 0.801542 0.488659 0.488659C0.801542 0.175776 1.2259 0 1.66839 0C2.11087 0 2.53523 0.175776 2.84811 0.488659L8.7304 6.37114C8.8019 6.44264 8.89888 6.48281 9 6.48281C9.10112 6.48281 9.1981 6.44264 9.2696 6.37114L15.1519 0.488659C15.4648 0.175776 15.8891 0 16.3316 0C16.7741 0 17.1985 0.175776 17.5113 0.488659C17.8242 0.801542 18 1.2259 18 1.66839C18 2.11087 17.8242 2.53523 17.5113 2.84811L11.6291 8.7304C11.5575 8.80193 11.5174 8.89894 11.5174 9.0001C11.5174 9.10125 11.5575 9.19826 11.6291 9.2698L17.5113 15.1519Z" fill="#01B9E1" />
+									</svg>
+								</span>
+							</button>
+						</div>
+						<div class="menus">
+							<div class="menu">
+								<div class="menu__actions">
+									<div class="menu__info">
+										<a href="#features" class="menu__item item-menu">
+											<div class="item-menu__box">
+												<p class="item-menu__text">Features</p>
+											</div>
+											<div class="lang__el">
+												<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</a>
+										<a href="#use" class="menu__item item-menu">
+											<div class="item-menu__box">
+												<p class="item-menu__text">Compatibility</p>
+											</div>
+											<div class="lang__el">
+												<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</a>
+										<a href="#reviews" class="menu__item item-menu">
+											<div class="item-menu__box">
+												<p class="item-menu__text">Reviews</p>
+											</div>
+											<div class="lang__el">
+												<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</a>
+										<a href="#choose" class="menu__item item-menu">
+											<div class="item-menu__box">
+												<p class="item-menu__text">Download</p>
+											</div>
+											<div class="lang__el">
+												<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</a>
+									</div>
+									<div class="menu__lang">
+										<div class="lang">
+											<button class="lang__button">
+												<div class="lang__flag"></div>
+												<div class="lang__current"></div>
+												<div class="lang__arrow">
+													<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+													</svg>
+												</div>
+											</button>
+											<div class="lang__content">
+												<div class="lang__back">
+													<span>
+														<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M10.8862 0.676329C10.9621 0.599034 11 0.502416 11 0.396135C11 0.289855 10.9621 0.193237 10.8862 0.115942C10.7345 -0.0386473 10.4879 -0.0386473 10.3362 0.115942L5.5 5.04348L0.663793 0.115942C0.512069 -0.0386473 0.265517 -0.0386473 0.113793 0.115942C-0.037931 0.270531 -0.037931 0.521739 0.113793 0.676329L5.225 5.88406C5.37672 6.03865 5.62328 6.03865 5.775 5.88406L10.8862 0.676329V0.676329Z" fill="white" />
+														</svg>
+													</span>
+													Back
+												</div>
+												<ul class="lang__list">
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2232)">
+																		<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																		<path d="M2.0684 3.91211C1.28289 4.9341 0.690586 6.11203 0.345703 7.39168H5.54797L2.0684 3.91211Z" fill="#0052B4" />
+																		<path d="M19.6573 7.39164C19.3124 6.11203 18.72 4.9341 17.9346 3.91211L14.4551 7.39164H19.6573Z" fill="#0052B4" />
+																		<path d="M0.345703 12.6094C0.690625 13.889 1.28293 15.0669 2.0684 16.0889L5.54785 12.6094H0.345703Z" fill="#0052B4" />
+																		<path d="M16.0889 2.06844C15.0669 1.28293 13.889 0.690625 12.6094 0.345703V5.54793L16.0889 2.06844Z" fill="#0052B4" />
+																		<path d="M3.91211 17.9345C4.9341 18.72 6.11203 19.3123 7.39164 19.6573V14.4551L3.91211 17.9345Z" fill="#0052B4" />
+																		<path d="M7.3916 0.345703C6.11199 0.690625 4.93406 1.28293 3.91211 2.0684L7.3916 5.54789V0.345703Z" fill="#0052B4" />
+																		<path d="M12.6094 19.6573C13.889 19.3123 15.0669 18.72 16.0889 17.9346L12.6094 14.4551V19.6573Z" fill="#0052B4" />
+																		<path d="M14.4551 12.6094L17.9346 16.0889C18.72 15.067 19.3124 13.889 19.6573 12.6094H14.4551Z" fill="#0052B4" />
+																		<path d="M19.9154 8.69566H11.3044H11.3044V0.0846484C10.8774 0.0290625 10.4421 0 10 0C9.55785 0 9.12262 0.0290625 8.69566 0.0846484V8.69559V8.69563H0.0846484C0.0290625 9.12262 0 9.55793 0 10C0 10.4421 0.0290625 10.8774 0.0846484 11.3043H8.69559H8.69563V19.9154C9.12262 19.9709 9.55785 20 10 20C10.4421 20 10.8774 19.971 11.3043 19.9154V11.3044V11.3044H19.9154C19.9709 10.8774 20 10.4421 20 10C20 9.55793 19.9709 9.12262 19.9154 8.69566V8.69566Z" fill="#D80027" />
+																		<path d="M12.6074 12.6075L17.0698 17.0698C17.275 16.8646 17.4708 16.6502 17.6576 16.4278L13.8372 12.6074H12.6074V12.6075Z" fill="#D80027" />
+																		<path d="M7.39012 12.6074H7.39004L2.92773 17.0697C3.13289 17.275 3.34738 17.4707 3.56973 17.6575L7.39012 13.8371V12.6074Z" fill="#D80027" />
+																		<path d="M7.39195 7.3902V7.39012L2.92961 2.92773C2.72438 3.13289 2.52859 3.34738 2.3418 3.56973L6.16223 7.39016H7.39195V7.3902Z" fill="#D80027" />
+																		<path d="M12.6074 7.39199L17.0698 2.92957C16.8646 2.72434 16.6502 2.52855 16.4278 2.3418L12.6074 6.16223V7.39199Z" fill="#D80027" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2232">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">English</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2236)">
+																		<path d="M0.621094 13.477C2.03402 17.2849 5.69945 19.9987 9.9991 19.9987C14.2987 19.9987 17.9642 17.2849 19.3771 13.477L9.9991 12.6074L0.621094 13.477Z" fill="#FFDA44" />
+																		<path d="M9.9991 0C5.69945 0 2.03402 2.71375 0.621094 6.52176L9.9991 7.39129L19.3771 6.52172C17.9642 2.71375 14.2987 0 9.9991 0Z" fill="black" />
+																		<path d="M0.621992 6.52148C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478H19.378C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992Z" fill="#D80027" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2236">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">Deutschland</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2240)">
+																		<path d="M0 10.0002C0 11.2234 0.220039 12.3951 0.621992 13.4784L10 14.348L19.378 13.4784C19.78 12.3951 20 11.2234 20 10.0002C20 8.77695 19.78 7.60523 19.378 6.52191L10 5.65234L0.621992 6.52191C0.220039 7.60523 0 8.77695 0 10.0002H0Z" fill="#FFDA44" />
+																		<path d="M19.3791 6.52176C17.9661 2.71379 14.3007 0 10.0011 0C5.70141 0 2.03598 2.71379 0.623047 6.52176H19.3791Z" fill="#D80027" />
+																		<path d="M0.623047 13.4785C2.03598 17.2865 5.70141 20.0003 10.0011 20.0003C14.3007 20.0003 17.9661 17.2865 19.3791 13.4785H0.623047Z" fill="#D80027" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2240">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">España</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2244)">
+																		<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																		<path d="M20.0003 9.9991C20.0003 5.69945 17.2865 2.03402 13.4785 0.621094V19.3772C17.2865 17.9642 20.0003 14.2988 20.0003 9.9991V9.9991Z" fill="#D80027" />
+																		<path d="M0 9.9991C0 14.2987 2.71379 17.9642 6.52176 19.3771V0.621094C2.71379 2.03402 0 5.69945 0 9.9991Z" fill="#0052B4" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2244">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">France</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2248)">
+																		<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																		<path d="M20 10C20 15.5228 15.5228 20 10 20C4.47719 20 0 15.5228 0 10" fill="#D80027" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2248">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">Polska</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2252)">
+																		<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#F0F0F0" />
+																		<path d="M19.378 13.478C19.78 12.3946 20 11.2229 20 9.99973C20 8.77652 19.78 7.6048 19.378 6.52148H0.621992C0.220039 7.6048 0 8.77652 0 9.99973C0 11.2229 0.220039 12.3946 0.621992 13.478L10 14.3475L19.378 13.478Z" fill="#0052B4" />
+																		<path d="M9.9991 20.0003C14.2987 20.0003 17.9642 17.2865 19.3771 13.4785H0.621094C2.03402 17.2865 5.69945 20.0003 9.9991 20.0003Z" fill="#D80027" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2252">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">Русский</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2256)">
+																		<path d="M0 9.9991C0 14.2987 2.71375 17.9641 6.52168 19.3771L7.39129 9.99906L6.52168 0.621094C2.71375 2.03406 0 5.69945 0 9.9991Z" fill="#6DA544" />
+																		<path d="M19.9998 10C19.9998 4.47719 15.5226 0 9.99981 0C8.7766 0 7.60484 0.220039 6.52148 0.621992V19.378C7.60484 19.78 8.7766 20 9.99981 20C15.5226 20 19.9998 15.5228 19.9998 10Z" fill="#D80027" />
+																		<path d="M6.52121 13.478C8.44219 13.478 9.99945 11.9207 9.99945 9.99973C9.99945 8.07875 8.44219 6.52148 6.52121 6.52148C4.60023 6.52148 3.04297 8.07875 3.04297 9.99973C3.04297 11.9207 4.60023 13.478 6.52121 13.478Z" fill="#FFDA44" />
+																		<path d="M4.56445 8.25977V10.4337C4.56445 11.5142 5.44039 12.3902 6.52098 12.3902C7.60156 12.3902 8.4775 11.5143 8.4775 10.4337V8.25977H4.56445Z" fill="#D80027" />
+																		<path d="M6.52328 11.0862C6.16367 11.0862 5.87109 10.7936 5.87109 10.434V9.56445H7.17543V10.434C7.17543 10.7936 6.88285 11.0862 6.52328 11.0862Z" fill="#F0F0F0" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2256">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">Portugal</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+													<li class="lang__item">
+														<div class="lang__box">
+															<div class="lang__icon">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0_3885_2260)">
+																		<path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#D80027" />
+																		<path d="M9.59141 8.16992L10.4119 9.30059L11.7407 8.86973L10.9189 9.99941L11.7393 11.13L10.411 10.6975L9.58922 11.8272L9.59008 10.4303L8.26172 9.99781L9.59055 9.56695L9.59141 8.16992Z" fill="#F0F0F0" />
+																		<path d="M7.3523 12.8259C5.79152 12.8259 4.52621 11.5605 4.52621 9.99977C4.52621 8.43898 5.79152 7.17367 7.3523 7.17367C7.83895 7.17367 8.29684 7.29676 8.6966 7.51336C8.06945 6.9 7.21176 6.52148 6.26535 6.52148C4.34434 6.52148 2.78711 8.07875 2.78711 9.99973C2.78711 11.9207 4.34438 13.478 6.26535 13.478C7.21184 13.478 8.06949 13.0994 8.6966 12.4861C8.29684 12.7028 7.83895 12.8259 7.3523 12.8259V12.8259Z" fill="#F0F0F0" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_3885_2260">
+																			<rect width="20" height="20" fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+															</div>
+															<div class="lang__text">Türkiye</div>
+														</div>
+														<div class="lang__el">
+															<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+																<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+																<defs>
+																	<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#2E2940" />
+																		<stop offset="1" stop-color="#1F1B2C" />
+																	</linearGradient>
+																	<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#78E7FF" />
+																		<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+																	</linearGradient>
+																</defs>
+															</svg>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="lang__menu-el">
+												<svg width="250" height="40" viewBox="0 0 250 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 20C0 8.95431 8.9543 0 20 0H230C241.046 0 250 8.95431 250 20C250 31.0457 241.046 40 230 40H20C8.9543 40 0 31.0457 0 20Z" fill="url(#paint0_linear_3948_4030)" />
+													<path d="M0.5 20C0.5 9.23045 9.23045 0.5 20 0.5H230C240.77 0.5 249.5 9.23045 249.5 20C249.5 30.7696 240.77 39.5 230 39.5H20C9.23044 39.5 0.5 30.7696 0.5 20Z" stroke="url(#paint1_linear_3948_4030)" stroke-opacity="0.3" />
+													<defs>
+														<linearGradient id="paint0_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#2E2940" />
+															<stop offset="1" stop-color="#1F1B2C" />
+														</linearGradient>
+														<linearGradient id="paint1_linear_3948_4030" x1="125" y1="0" x2="125" y2="40" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#78E7FF" />
+															<stop offset="1" stop-color="#488B99" stop-opacity="0.2" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__inner">
+					<div class=".footer__copy">
+						<p><span>
+								<script>
+									document.write(new Date().getFullYear());
+								</script>
+							</span> Ⓒ VPN EXPERT. All Rights Reserved</p>
+						<p><a href="sing-in-policy.html" class="footer__privacy">Privacy Policy</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+
+
+	<script defer src="js/app.min.js?_v=20241028135548"></script>
+
+</body>
+
+
+</html>
